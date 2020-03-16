@@ -4,7 +4,6 @@ Project Description
 
 ### Todo
 
-- [ ] Create full Skills page  
 - [ ] Create full Work page  
 - [ ] Create full Background page  
 - [ ] Create full Contact page  
@@ -13,9 +12,10 @@ Project Description
 ### In Progress
 
 - [ ] Create full Nav bar  
-- [ ] Create full About page  
+- [ ] Create full Skills page  
 
 ### Done ✓
 
 - [x] Create full Landing page  
+- [x] Create full About page  
 
