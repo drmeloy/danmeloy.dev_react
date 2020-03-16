@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing component matches snapshot 1`] = `
+<section
+  className="Landing"
+>
+  <h2
+    className="animated fadeInDown"
+  >
+    Modern development
+  </h2>
+  <p
+    className="animated fadeInDown"
+  >
+    by
+  </p>
+  <h1
+    className="animated fadeInDown"
+  >
+    Dan Meloy
+  </h1>
+  <span
+    className="animated fadeIn"
+  >
+    Full-stack digital solutions
+  </span>
+</section>
+`;
