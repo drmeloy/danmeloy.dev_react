@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav component matches snapshot 1`] = `
+<section
+  className="Nav"
+>
+  <a>
+    Landing
+  </a>
+  <a>
+    About
+  </a>
+  <a>
+    Skills
+  </a>
+  <a>
+    Work
+  </a>
+  <a>
+    Background
+  </a>
+  <a>
+    Contact
+  </a>
+</section>
+`;
