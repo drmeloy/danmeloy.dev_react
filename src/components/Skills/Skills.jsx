@@ -5,7 +5,7 @@ export default function Skills(){
   return (
     <>
       <section className={styles.Skills}>
-        <p>Tools I currently use include:</p>
+        <p>Technologies I currently use:</p>
         <div className={styles.Icons}>
           <p>
             <img src='../../../public/assets/js.png' alt='javascript icon'/>
@@ -48,8 +48,23 @@ export default function Skills(){
             <br/>Heroku
           </p>
           <p>
-            <img src='../../../public/assets/jest.png' alt='heroku icon'/>
+            <img src='../../../public/assets/jest.png' alt='jest icon'/>
             <br/>Jest
+          </p>
+          <p>
+            <img src='../../../public/assets/shell.png' alt='shell icon'/>
+            <br/>Shell
+          </p>
+        </div>
+        <p>Technologies I am currently learning:</p>
+        <div className={styles.Icons}>
+          <p>
+            <img src='../../../public/assets/graphql.png' alt='graphql icon'/>
+            <br/>GraphQL
+          </p>
+          <p>
+            <img src='../../../public/assets/typescript.png' alt='typescript icon'/>
+            <br/>Typescript
           </p>
         </div>
       </section>
