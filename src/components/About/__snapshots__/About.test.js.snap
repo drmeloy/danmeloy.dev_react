@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component matches snapshot 1`] = `
+<Fragment>
+  <section
+    className="About"
+  >
+    <img
+      alt="headshot of dan"
+      className="CroppedHeadshot"
+      src="../../../public/assets/headshot.jfif"
+    />
+    <p>
+      Hello! My name is Dan. I'm a full-stack software engineer. I use technical skill and strong interpersonal connections to create beautiful and innovative digital products. I believe that meaningful relationships lead to positive results. As such, I seek to invest in people as much as in the technologies we use.
+    </p>
+    <img
+      alt="headshot of dan"
+      className="Headshot"
+      src="../../../public/assets/dan.jpg"
+    />
+  </section>
+</Fragment>
+`;
