@@ -1,5 +1,5 @@
 .Nav {
-  position: absolute;
+  position: fixed;
   height: 100vh;
   color: white;
   background-color: #00000099;
