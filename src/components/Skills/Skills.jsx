@@ -56,6 +56,7 @@ export default function Skills(){
             <br/>Shell
           </p>
         </div>
+        <br/>
         <p>Technologies I am currently learning:</p>
         <div className={styles.Icons}>
           <p>
