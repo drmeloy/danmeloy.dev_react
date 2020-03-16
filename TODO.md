@@ -10,6 +10,7 @@ Project Description
 - [ ] Create full Background page  
 - [ ] Create full Contact page  
 - [ ] Create full Nav bar  
+- [ ] Play with SVGs to make a logo?  
 
 ### In Progress
 
