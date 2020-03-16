@@ -56,13 +56,14 @@
 
   @media (min-width: 10px) and (max-width: 720px){
     row-gap: 1em;
+    grid-template: auto / repeat(2, 1fr);
 
     p {
       font-size: .6em;
     }
   }
 
-  @media (max-width: 1025px) {
-    grid-template: auto / repeat(2, 1fr);
+  @media (min-width: 721px) and (max-width: 1025px) {
+    grid-template: auto / repeat(3, 1fr);
   }
 }
