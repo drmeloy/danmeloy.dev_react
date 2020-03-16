@@ -9,13 +9,12 @@ Project Description
 - [ ] Create full Work page  
 - [ ] Create full Background page  
 - [ ] Create full Contact page  
-- [ ] Create full Nav bar  
-- [ ] Play with SVGs to make a logo?  
 
 ### In Progress
 
-- [ ] Create full Landing page  
+- [ ] Create full Nav bar  
 
 ### Done ✓
 
+- [x] Create full Landing page  
 
