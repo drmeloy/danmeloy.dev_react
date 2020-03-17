@@ -67,6 +67,10 @@ export default function Skills(){
             <img src='../../../public/assets/typescript.png' alt='typescript icon'/>
             <br/>Typescript
           </p>
+          <p>
+            <img src='../../../public/assets/sass.png' alt='sass icon'/>
+            <br/>Sass
+          </p>
         </div>
       </section>
     </>

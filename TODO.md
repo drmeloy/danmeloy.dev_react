@@ -12,10 +12,10 @@ Project Description
 ### In Progress
 
 - [ ] Create full Nav bar  
-- [ ] Create full Skills page  
 
 ### Done ✓
 
 - [x] Create full Landing page  
 - [x] Create full About page  
+- [x] Create full Skills page  
 
