@@ -6,8 +6,8 @@ export default function Nav(){
     <section className={styles.Nav}>
       <a>Landing</a>
       <a>About</a>
-      <a>Skills</a>
       <a>Work</a>
+      <a>Skills</a>
       <a>Background</a>
       <a>Contact</a>
     </section>

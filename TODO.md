@@ -4,14 +4,15 @@ Project Description
 
 ### Todo
 
-- [ ] Create full Work page  
 - [ ] Create full Background page  
 - [ ] Create full Contact page  
 - [ ] Create mobile hamburger menu  
+- [ ] Create footer  
 
 ### In Progress
 
 - [ ] Create full Nav bar  
+- [ ] Create full Work page  
 
 ### Done ✓
 
