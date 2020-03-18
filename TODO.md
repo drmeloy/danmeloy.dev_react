@@ -8,6 +8,8 @@ Project Description
 - [ ] Create full Contact page  
 - [ ] Create mobile hamburger menu  
 - [ ] Create footer  
+- [ ] Touch up Band-M github  
+- [ ] Change Address Book picture to use fake addresses  
 
 ### In Progress
 

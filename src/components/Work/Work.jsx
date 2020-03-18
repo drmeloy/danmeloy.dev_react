@@ -78,7 +78,17 @@ export default function Work(){
           <img src='../../../public/assets/addressbook.png' />
           <div>
             <h1>Address Book</h1>
-            <p>Test</p>
+            <p>Full-stack CRUD application that allows a user to input, save, view, edit, and delete their contacts. User authentication ensures privacy of contact information.</p><br/>
+            <p>Built with:
+              <img src='../../../public/assets/mongodb.png' alt='mongodb icon'/>
+              <img src='../../../public/assets/node.png' alt='node icon'/>
+              <img src='../../../public/assets/js.png' alt='javascript icon'/>
+              <img src='../../../public/assets/css.png' alt='css icon'/>
+            </p><br/>
+            <p>View on:
+              <a href='https://alchemyaddressesbook.herokuapp.com' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
+              <a href='https://github.com/drmeloy/lab-15-address-book' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a>
+            </p>
           </div>
         </div>
 
@@ -105,7 +115,7 @@ export default function Work(){
           <img src='../../../public/assets/quixx.png' />
           <div>
             <h1>Qwixx</h1>
-            <p>A mobile-responsive JavaScript implementation of the popular Qwixx dice game <a href='https://gamewright.com/product/Qwixx' target='_blank' rel='noopener roreferrer'>(https://gamewright.com/product/Qwixx)</a> that speeds gameplay and doesn&apos;t rely on paper scorecards. Developed with face-to-face multiplayer in mind.</p><br/>
+            <p>A mobile-responsive JavaScript implementation of the popular Qwixx dice game <a href='https://gamewright.com/product/Qwixx' target='_blank' rel='noopener roreferrer'>(https://gamewright.com/product/Qwixx)</a> that speeds gameplay and doesn&apos;t rely on paper scorecards. Developed with face-to-face multiplayer in mind with each player&apos;s device acting as their scorecard.</p><br/>
             <p>Built with: 
               <img src='../../../public/assets/js.png' alt='javascript icon'/>
               <img src='../../../public/assets/html.png' alt='html icon'/>
