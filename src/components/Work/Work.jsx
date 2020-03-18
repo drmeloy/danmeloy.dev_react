@@ -6,12 +6,32 @@ export default function Work(){
     <>
       <section className={styles.Work}>
         <span>Selected projects:</span>
+        {/* KiT */}
+        <div className={styles.Portfolio}>
+          <img src='../../../public/assets/kit.png' />
+          <div>
+            <h1>KiT: Keeping In Touch</h1>
+            <p>A progressive web app for setting, tracking, and meeting communication goals. User can input contacts, set communication goals, receive push notification reminders, and view communication logs. Contacts are automatically sorted and styled based on proximity to communcation deadline.</p><br/>
+            <p>Built with:
+              <img src='../../../public/assets/react.png' alt='react icon'/>
+              <img src='../../../public/assets/redux.png' alt='redux icon'/>
+              <img src='../../../public/assets/mongodb.png' alt='mongodb icon'/>
+              <img src='../../../public/assets/node.png' alt='node icon'/>
+              <img src='../../../public/assets/css.png' alt='css icon'/>
+            </p><br/>
+            <p>View on:
+              <a href='https://friendlier-staging.netlify.com/login' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
+              <a href='https://github.com/band-m' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a>
+            </p>
+          </div>
+        </div>
+
         {/* Knowoncology */}
         <div className={styles.Portfolio}>
           <img src='../../../public/assets/know.png' />
           <div>
             <h1>Knowoncology</h1>
-            <p>A client-driven backend migration for a naturopathic cancer research non-profit database <a href='https://www.knowoncology.org/' target='_blank' rel='noopener noreferrer'>(www.knowoncology.org)</a> rebuilt with MongoDB, resulting in 10x faster search speed and more reliable search results.</p><br/>
+            <p>A client-driven backend migration for a naturopathic cancer research non-profit database <a href='https://www.knowoncology.org/' target='_blank' rel='noopener noreferrer'>(www.knowoncology.org)</a> built with MongoDB, resulting in 10x faster search speed and more reliable search results.</p><br/>
             <p>Built with:
               <img src='../../../public/assets/mongodb.png' alt='mongodb icon'/>
               <img src='../../../public/assets/node.png' alt='node icon'/>
@@ -22,16 +42,6 @@ export default function Work(){
               <a href='https://knowoncology.herokuapp.com' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
               <a href='https://github.com/kNOWOncology/knowoncology/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a>
             </p>
-          </div>
-        </div>
-
-        {/* KiT */}
-        <div className={styles.Portfolio}>
-          <img src='http://placekitten.com/400/300' />
-          <div>
-            <h1>KiT: Keeping In Touch</h1>
-            <p>Test</p>
-            
           </div>
         </div>
 
