@@ -94,10 +94,19 @@ export default function Work(){
 
         {/* DREAMy */}
         <div className={styles.Portfolio}>
-          <img src='http://placekitten.com/400/300' />
+          <img src='../../../public/assets/dreamy.png' />
           <div>
             <h1>DREAMy</h1>
-            <p>Test</p>
+            <p>Postman clone with trippy aesthetics. A user can hit any REST API endpoint with the GET, POST, PUT, PATCH, and DELETE methods, as well as add customized authentication headers. History is logged, viewable, and revistable.</p><br/>
+            <p>Built with:
+              <img src='../../../public/assets/react.png' alt='react icon'/>
+              <img src='../../../public/assets/js.png' alt='javascript icon'/>
+              <img src='../../../public/assets/css.png' alt='css icon'/>
+            </p><br/>
+            <p>View on:
+              <a href='https://drmeloy.github.io/lab-28-RESTy/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
+              <a href='https://github.com/drmeloy/lab-28-RESTy/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a>
+            </p>
           </div>
         </div>
 
