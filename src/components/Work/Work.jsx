@@ -112,10 +112,20 @@ export default function Work(){
 
         {/* Github Viewer */}
         <div className={styles.Portfolio}>
-          <img src='http://placekitten.com/400/300' />
+          <img src='../../../public/assets/githubviewer.png' />
           <div>
             <h1>Github Viewer</h1>
-            <p>Test</p>
+            <p>Application used to view Github profiles and their repositories, pull requests, and issues in one convenient space. Hits the Github API and utilizes Redux for state management.</p><br/>
+            <p>Built with:
+              <img src='../../../public/assets/react.png' alt='react icon'/>
+              <img src='../../../public/assets/redux.png' alt='redux icon'/>
+              <img src='../../../public/assets/js.png' alt='javascript icon'/>
+              <img src='../../../public/assets/css.png' alt='css icon'/>
+            </p><br/>
+            <p>View on:
+              <a href='https://drmeloy.github.io/lab-40-github-viewer/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
+              <a href='https://github.com/drmeloy/lab-40-github-viewer/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a>
+            </p>
           </div>
         </div>
 
