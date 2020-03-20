@@ -66,10 +66,19 @@ export default function Work(){
 
         {/* Artist Search */}
         <div className={styles.Portfolio}>
-          <img src='http://placekitten.com/400/300' />
+          <img src='../../../public/assets/bandsearch.png' />
           <div>
-            <h1>Artist Search</h1>
-            <p>Test</p>
+            <h1>Band Search</h1>
+            <p>Single page application for searching musical artists, viewing discographies, examining albums, and getting lyrics.</p><br/>
+            <p>Built with:
+              <img src='../../../public/assets/react.png' alt='react icon'/>
+              <img src='../../../public/assets/js.png' alt='javascript icon'/>
+              <img src='../../../public/assets/css.png' alt='css icon'/>
+            </p><br/>
+            <p>View on:
+              <a href='https://drmeloy.github.io/Artist-Search/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
+              <a href='https://github.com/drmeloy/Artist-Search' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a>
+            </p>
           </div>
         </div>
 
