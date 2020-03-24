@@ -7,7 +7,6 @@ export default function Nav(){
       <a>Landing</a>
       <a>About</a>
       <a>Work</a>
-      <a>Skills</a>
       <a>Background</a>
       <a>Contact</a>
     </section>

@@ -34,10 +34,11 @@
     justify-content: center;
     align-items: center;
     padding-top: 1em;
+    padding-bottom: 1em;
 
     p {
-      width: 80vw;
-      margin: 1em auto;
+      width: 90vw;
+      margin: 1% auto;
       text-align: center
     }
   }
@@ -55,6 +56,10 @@
   .Hello {
     font-family: 'Abril Fatface', cursive;
     font-size: 2.5rem;
+
+    @media (min-width: 10px) and (max-width: 720px){
+      font-size: 1.5rem;
+    }
   }
 }
 
@@ -83,7 +88,7 @@
 }
 
 .Skills {
-  padding-left: 1%;
+  padding: 4%;
   width: 70vw;
   
   span {
@@ -93,7 +98,7 @@
 
   @media (min-width: 10px) and (max-width: 720px){
     span {
-      font-size: 1em;
+      font-size: .7em;
     }
   }
 
@@ -105,6 +110,12 @@
 
   @media (max-width: 1025px){
     padding-left: 0;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
   }
 }
 
@@ -137,16 +148,43 @@
     margin-top: 1em;
   }
 
-  @media (min-width: 10px) and (max-width: 720px){
-    row-gap: 1em;
-    grid-template: auto / repeat(2, 1fr);
-
+  @media (min-width: 300px) and (max-width: 370px){
     p {
-      font-size: .6em;
+      font-size: .4em;
     }
   }
 
-  @media (min-width: 721px) and (max-width: 1025px) {
-    grid-template: auto / repeat(3, 1fr);
+  @media (min-width: 371px) and (max-width: 720px){
+    p {
+      font-size: .5em;
+    }
+  }
+
+  @media (min-width: 721px) and (max-width: 900px){
+    p {
+      font-size: .8em;
+    }
+  }
+
+  @media (min-width: 901px) and (max-width: 1025px){
+    p {
+      font-size: 1em;
+    }
+  }
+
+  @media (min-width: 10px) and (max-width: 720px){
+    p {
+      height: 10vh;
+      width: 10vh;
+    }
+
+    img {
+      height: 4vh;
+    }
+  }
+
+  @media (max-width: 1025px) {
+    justify-content: center;
+    width: 90vw;
   }
 }
