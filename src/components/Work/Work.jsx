@@ -18,9 +18,9 @@ export default function Work(){
               <img src='../../../public/assets/mongodb.png' alt='mongodb icon'/>
               <img src='../../../public/assets/node.png' alt='node icon'/>
               <img src='../../../public/assets/css.png' alt='css icon'/>
-              View on:
-              <a href='https://friendlier-staging.netlify.com/login' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-              <a href='https://github.com/band-m' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a>
+              <p>View on:
+                <a href='https://friendlier-staging.netlify.com/login' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
+                <a href='https://github.com/band-m' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a></p>
             </p>
           </div>
         </div>
@@ -36,9 +36,9 @@ export default function Work(){
               <img src='../../../public/assets/node.png' alt='node icon'/>
               <img src='../../../public/assets/js.png' alt='javascript icon'/>
               <img src='../../../public/assets/css.png' alt='css icon'/>
-              View on:
-              <a href='https://knowoncology.herokuapp.com' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-              <a href='https://github.com/kNOWOncology/knowoncology/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a>
+              <p>View on:
+                <a href='https://knowoncology.herokuapp.com' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
+                <a href='https://github.com/kNOWOncology/knowoncology/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a></p>
             </p>
           </div>
         </div>
@@ -54,9 +54,9 @@ export default function Work(){
               <img src='../../../public/assets/node.png' alt='node icon'/>
               <img src='../../../public/assets/js.png' alt='javascript icon'/>
               <img src='../../../public/assets/css.png' alt='css icon'/>
-              View on:
-              <a href='https://treksntrails.herokuapp.com' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-              <a href='https://github.com/Plant-Parenthood/treks-n-tents' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a>
+              <p>View on:
+                <a href='https://treksntrails.herokuapp.com' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
+                <a href='https://github.com/Plant-Parenthood/treks-n-tents' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a></p>
             </p>
           </div>
         </div>
@@ -67,13 +67,14 @@ export default function Work(){
           <div>
             <h1>Band Search</h1>
             <p>Single page application to search musical artists, view discographies, examine albums, and get song lyrics</p>
-            <p>Built with:
+            <p>
+              Built with:
               <img src='../../../public/assets/react.png' alt='react icon'/>
               <img src='../../../public/assets/js.png' alt='javascript icon'/>
               <img src='../../../public/assets/css.png' alt='css icon'/>
-              View on:
-              <a href='https://drmeloy.github.io/Artist-Search/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-              <a href='https://github.com/drmeloy/Artist-Search' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a>
+              <p>View on:
+                <a href='https://drmeloy.github.io/Artist-Search/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
+                <a href='https://github.com/drmeloy/Artist-Search' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a></p>
             </p>
           </div>
         </div>
@@ -89,9 +90,9 @@ export default function Work(){
               <img src='../../../public/assets/node.png' alt='node icon'/>
               <img src='../../../public/assets/js.png' alt='javascript icon'/>
               <img src='../../../public/assets/css.png' alt='css icon'/>
-              View on:
-              <a href='https://alchemyaddressesbook.herokuapp.com' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-              <a href='https://github.com/drmeloy/lab-15-address-book' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a>
+              <p>View on:
+                <a href='https://alchemyaddressesbook.herokuapp.com' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
+                <a href='https://github.com/drmeloy/lab-15-address-book' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a></p>
             </p>
           </div>
         </div>
@@ -106,9 +107,9 @@ export default function Work(){
               <img src='../../../public/assets/react.png' alt='react icon'/>
               <img src='../../../public/assets/js.png' alt='javascript icon'/>
               <img src='../../../public/assets/css.png' alt='css icon'/>
-              View on:
-              <a href='https://drmeloy.github.io/lab-28-RESTy/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-              <a href='https://github.com/drmeloy/lab-28-RESTy/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a>
+              <p>View on:
+                <a href='https://drmeloy.github.io/lab-28-RESTy/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
+                <a href='https://github.com/drmeloy/lab-28-RESTy/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a></p>
             </p>
           </div>
         </div>
@@ -124,9 +125,9 @@ export default function Work(){
               <img src='../../../public/assets/redux.png' alt='redux icon'/>
               <img src='../../../public/assets/js.png' alt='javascript icon'/>
               <img src='../../../public/assets/css.png' alt='css icon'/>
-              View on:
-              <a href='https://drmeloy.github.io/lab-40-github-viewer/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-              <a href='https://github.com/drmeloy/lab-40-github-viewer/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a>
+              <p>View on:
+                <a href='https://drmeloy.github.io/lab-40-github-viewer/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
+                <a href='https://github.com/drmeloy/lab-40-github-viewer/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a></p>
             </p>
           </div>
         </div>
@@ -141,9 +142,9 @@ export default function Work(){
               <img src='../../../public/assets/js.png' alt='javascript icon'/>
               <img src='../../../public/assets/html.png' alt='html icon'/>
               <img src='../../../public/assets/css.png' alt='css icon'/>
-              View on:
-              <a href='https://i-16.github.io/qwixx/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-              <a href='https://github.com/I-16/qwixx' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a>
+              <p>View on:
+                <a href='https://i-16.github.io/qwixx/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
+                <a href='https://github.com/I-16/qwixx' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a></p>
             </p>
           </div>
         </div>
