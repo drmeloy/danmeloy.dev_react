@@ -1,6 +1,7 @@
 .Skills {
   padding-left: 130px;
   min-height: 100vh;
+  padding-bottom: 3%;
 
   p {
     font-family: 'Raleway', sans-serif;
@@ -38,7 +39,7 @@
 
   p {
     border-radius: 50%;
-    height: 15vh;
+    height: 17vh;
     width: 17vh;
     background: #ffffff17;
     text-align: center;
