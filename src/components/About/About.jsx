@@ -62,6 +62,22 @@ export default function About(){
               <br/>Shell
             </p>
           </div>
+          <br/>
+          <span>Technologies I am currently learning:</span>
+          <div className={styles.Icons}>
+            <p>
+              <img src='../../../public/assets/graphql.png' alt='graphql icon'/>
+              <br/>GraphQL
+            </p>
+            <p>
+              <img src='../../../public/assets/typescript.png' alt='typescript icon'/>
+              <br/>Typescript
+            </p>
+            <p>
+              <img src='../../../public/assets/sass.png' alt='sass icon'/>
+              <br/>Sass
+            </p>
+          </div>
         </div>
       </section>
     </>
