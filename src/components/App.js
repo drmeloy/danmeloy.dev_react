@@ -11,7 +11,6 @@ export default function App() {
       <Nav />
       <Landing />
       <About />
-      <Skills />
       <Work />
     </>
   );
