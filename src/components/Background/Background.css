@@ -32,12 +32,12 @@
 
   .Excerpts {
     display: flex;
-  }
 
-  .Excerpt {
-    padding: 2vw 3vw;
-    font-size: 1.4rem;
-    line-height: 1.8rem;
+    p {
+      padding: 2vw 3vw;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+    }
   }
 
   .Closer {

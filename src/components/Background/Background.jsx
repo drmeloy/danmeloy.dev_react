@@ -7,7 +7,7 @@ export default function Background(){
       <section className={styles.Background}>
         <p className={styles.Title}>A bit about my background...</p>
         <div className={styles.Titles}>
-          <h4>Perspectives-based approach</h4>
+          <h4 id='1'>Perspectives-based approach</h4>
           <h4>International entrepreneur</h4>
           <h4>Leadership and empowering others</h4>
         </div>
