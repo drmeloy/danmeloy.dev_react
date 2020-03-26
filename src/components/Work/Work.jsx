@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from './Work.css';
+import { Element } from 'react-scroll';
 
 export default function Work(){
   return (
-    <>
+    <Element id='Work' name='Work'>
       <section className={styles.Work}>
         <span>Selected projects:</span>
         {/* KiT */}
@@ -149,6 +150,6 @@ export default function Work(){
           </div>
         </div>
       </section>
-    </>
+    </Element>
   );
 }

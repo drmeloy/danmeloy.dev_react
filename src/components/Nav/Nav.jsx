@@ -10,12 +10,26 @@ export default function Nav(){
         to='Landing'
         spy={true}
         smooth={true}
-        duration={1000}
+        duration={800}
         activeClass='active'>
           Landing
       </Link>
-      <a>About</a>
-      <a>Work</a>
+      <Link
+        to='About'
+        spy={true}
+        smooth={true}
+        duration={800}
+        activeClass='active'>
+          About
+      </Link>
+      <Link
+        to='Work'
+        spy={true}
+        smooth={true}
+        duration={800}
+        activeClass='active'>
+          Work
+      </Link>
       <Link
         to='Background'
         spy={true}

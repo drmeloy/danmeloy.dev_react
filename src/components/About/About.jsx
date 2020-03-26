@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from './About.css';
+import { Element } from 'react-scroll';
 
 export default function About(){
   return (
-    <>
+    <Element id='About' name='About'>
       <section className={styles.About}>
         <img className={styles.CroppedHeadshot} src='../../../public/assets/headshot.jfif' alt='headshot of dan' />
         <div className={styles.Container}>
@@ -80,6 +81,6 @@ export default function About(){
           </div>
         </div>
       </section>
-    </>
+    </Element>
   );
 }
