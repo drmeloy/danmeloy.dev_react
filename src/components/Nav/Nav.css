@@ -12,6 +12,7 @@
 
   img {
     height: 4vh;
+    animation: fadeIn 1s;
   }
 
   p {
@@ -34,7 +35,13 @@
     p {
       display: flex;
       align-items: center;
+      animation: fadeIn 1s;
     }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0;}
+    to { opacity: 1;}
   }
 
   @media (min-width: 10px) and (max-width: 1025px) {
