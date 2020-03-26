@@ -1,5 +1,6 @@
 .Nav {
   position: fixed;
+  width: 130px;
   height: 100vh;
   color: white;
   background-color: #00000099;
@@ -8,6 +9,30 @@
   justify-content: space-around;
   align-items: center;
   padding: 1%;
+
+  img {
+    height: 4vh;
+  }
+
+  p {
+    display: none;
+    height: 4vh;
+  }
+
+  .Link {
+    height: 4vh;
+  }
+
+  .Link:hover {
+    img {
+      display: none;
+    }
+
+    p {
+      display: flex;
+      align-items: center;
+    }
+  }
 
   @media (min-width: 10px) and (max-width: 1025px) {
     display: none;

@@ -11,8 +11,10 @@ export default function Nav(){
         spy={true}
         smooth={true}
         duration={800}
+        className={styles.Link}
         activeClass='active'>
-          Landing
+        <img src='../../../public/assets/home.png'></img>
+        <p>Home</p>
       </Link>
       <Link
         to='About'
@@ -27,8 +29,9 @@ export default function Nav(){
         spy={true}
         smooth={true}
         duration={800}
+        className={styles.Link}
         activeClass='active'>
-          Work
+        <p>Work</p>
       </Link>
       <Link
         to='Background'
