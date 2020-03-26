@@ -21,8 +21,10 @@ export default function Nav(){
         spy={true}
         smooth={true}
         duration={800}
+        className={styles.Link}
         activeClass='active'>
-          About
+        <img src='../../../public/assets/about.png'></img>
+        <p>About</p>
       </Link>
       <Link
         to='Work'
@@ -31,6 +33,7 @@ export default function Nav(){
         duration={800}
         className={styles.Link}
         activeClass='active'>
+        <img src='../../../public/assets/work.png'></img>
         <p>Work</p>
       </Link>
       <Link
@@ -38,10 +41,21 @@ export default function Nav(){
         spy={true}
         smooth={true}
         duration={800}
+        className={styles.Link}
         activeClass='Active-Background'>
-          Background
+        <img src='../../../public/assets/background.png'></img>
+        <p>Background</p>
       </Link>
-      <a>Contact</a>
+      <Link
+        to='Background'
+        spy={true}
+        smooth={true}
+        duration={800}
+        className={styles.Link}
+        activeClass='Active-Background'>
+        <img src='../../../public/assets/contact.png'></img>
+        <p>Contact</p>
+      </Link>
     </nav>
   );
 }

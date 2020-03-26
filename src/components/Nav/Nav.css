@@ -17,6 +17,7 @@
   p {
     display: none;
     height: 4vh;
+    font-family: 'Abril Fatface', cursive;
   }
 
   .Link {
@@ -24,6 +25,8 @@
   }
 
   .Link:hover {
+    cursor: pointer;
+
     img {
       display: none;
     }
