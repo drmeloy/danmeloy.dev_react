@@ -15,6 +15,10 @@
     animation: fadeIn 1s;
   }
 
+  img.active {
+    display: none;
+  }
+
   p {
     display: none;
     height: 4vh;
@@ -36,6 +40,10 @@
       display: none;
     }
 
+    img.active {
+      display: none;
+    }
+
     p {
       display: flex;
       align-items: center;
@@ -44,8 +52,17 @@
   }
 
   .Active {
-    background-color: #fff70040;
-    border-radius: 50%;
+    img.inactive {
+      display: none
+    }
+
+    img.active {
+      display: block
+    }
+
+    p {
+      color: #fff700;
+    }
   }
 
   @keyframes fadeIn {
