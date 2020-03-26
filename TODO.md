@@ -9,6 +9,7 @@ Project Description
 - [ ] Create footer  
 - [ ] Touch up Band-M github  
 - [ ] Change Address Book picture to use fake addresses  
+- [ ] Make hover effects for Background and Works  
 
 ### In Progress
 
