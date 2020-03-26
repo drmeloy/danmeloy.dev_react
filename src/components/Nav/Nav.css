@@ -22,7 +22,11 @@
   }
 
   .Link {
-    height: 4vh;
+    height: 8vh;
+    width: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .Link:hover {
@@ -37,6 +41,11 @@
       align-items: center;
       animation: fadeIn 1s;
     }
+  }
+
+  .Active {
+    background-color: #fff70040;
+    border-radius: 50%;
   }
 
   @keyframes fadeIn {

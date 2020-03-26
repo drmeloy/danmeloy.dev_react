@@ -12,8 +12,9 @@ export default function Nav(){
         smooth={true}
         duration={800}
         className={styles.Link}
-        activeClass='active'>
+        activeClass={styles.Active}>
         <img src='../../../public/assets/home.png'></img>
+        <span id='active' src='../../../public/assets/home_active.png'></span>
         <p>Home</p>
       </Link>
       <Link
@@ -22,7 +23,7 @@ export default function Nav(){
         smooth={true}
         duration={800}
         className={styles.Link}
-        activeClass='active'>
+        activeClass={styles.Active}>
         <img src='../../../public/assets/about.png'></img>
         <p>About</p>
       </Link>
@@ -32,7 +33,7 @@ export default function Nav(){
         smooth={true}
         duration={800}
         className={styles.Link}
-        activeClass='active'>
+        activeClass={styles.Active}>
         <img src='../../../public/assets/work.png'></img>
         <p>Work</p>
       </Link>
@@ -42,7 +43,7 @@ export default function Nav(){
         smooth={true}
         duration={800}
         className={styles.Link}
-        activeClass='Active-Background'>
+        activeClass={styles.Active}>
         <img src='../../../public/assets/background.png'></img>
         <p>Background</p>
       </Link>
@@ -52,7 +53,7 @@ export default function Nav(){
         smooth={true}
         duration={800}
         className={styles.Link}
-        activeClass='Active-Background'>
+        activeClass={styles.Active}>
         <img src='../../../public/assets/contact.png'></img>
         <p>Contact</p>
       </Link>
