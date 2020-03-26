@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from './Background.css';
+import { Element } from 'react-scroll';
 
 export default function Background(){
   return (
-    <>
+    <Element id='Background' name='Background'>
       <section className={styles.Background}>
         <p className={styles.Title}>A bit about my background...</p>
         <div className={styles.Titles}>
@@ -18,6 +19,6 @@ export default function Background(){
         </div>
         <p className={styles.Closer}>Now, as a developer and engineer, I hope to use technology to apply the lessons I&apos;ve learned throughout my life. I aim to solve problems that can empower others.</p>
       </section>
-    </>
+    </Element>
   );
 }
