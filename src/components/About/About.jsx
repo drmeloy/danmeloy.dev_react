@@ -66,7 +66,7 @@ export default function About(){
           <br/>
           <span>Technologies I am currently learning:</span>
           <div className={styles.Icons}>
-          <p>
+            <p>
               <img src='../../../public/assets/scala.png' alt='scala icon'/>
               <br/>Scala
             </p>
@@ -83,6 +83,9 @@ export default function About(){
               <br/>Sass
             </p>
           </div>
+        </div>
+        <div className={styles.Resume}>
+          <a href='../../../public/assets/Dan Meloy Software Engineer Resume.pdf' target='_blank'>View my resume here</a>
         </div>
       </section>
     </Element>

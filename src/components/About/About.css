@@ -199,3 +199,23 @@
     width: 90vw;
   }
 }
+
+.Resume {
+  a {
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid;
+    padding: 2%;
+    background: #ffffff1c;
+    color: white;
+    position: relative;
+    left: 70%;
+    bottom: 52vh;
+    border-radius: 5px;
+    transition: .3s;
+  }
+  
+  a:hover {
+    background: #0000007d;
+    transition: .3s;
+  }
+}
