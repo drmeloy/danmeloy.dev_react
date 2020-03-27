@@ -1,5 +1,5 @@
 .Landing {
-  padding-left: 130px;
+  padding-left: 7%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,19 +14,21 @@
   }
   
   h1 {
-    font-size: 4.5em;
+    font-size: 3.5em;
     color: #ffffffcc;
     animation-delay: .2s;
   }
 
   h2 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: #ffffff8a;
   }
   
   p {
     font-family: 'Raleway', sans-serif;
     animation-delay: .1s;
+    font-size: .8em;
+    color: #ffffff6b;
   }
 
   span {
@@ -34,6 +36,7 @@
     color: #ffffff8a;
     font-style: italic;
     animation-delay: 1s;
+    font-size: .8em;
   }
 
   @media (max-width: 1025px) {

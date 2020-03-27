@@ -1,6 +1,6 @@
 .Nav {
   position: fixed;
-  width: 130px;
+  width: 7%;
   height: 100vh;
   color: white;
   background-color: #00000099;
@@ -23,6 +23,7 @@
     display: none;
     height: 4vh;
     font-family: 'Abril Fatface', cursive;
+    font-size: .8rem;
   }
 
   .Link {

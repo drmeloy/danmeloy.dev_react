@@ -10,11 +10,11 @@ Project Description
 - [ ] Touch up Band-M github  
 - [ ] Change Address Book picture to use fake addresses  
 - [ ] Make hover effects for Background and Works  
+- [ ] Resize everything  
 
 ### In Progress
 
-- [ ] Create full Nav bar  
-- [ ] Create full Background page  
+- [ ] Create full Nav bar (add hashes)  
 
 ### Done ✓
 
@@ -22,4 +22,5 @@ Project Description
 - [x] Create full About page  
 - [x] Create full Skills page  
 - [x] Create full Work page  
+- [x] Create full Background page  
 
