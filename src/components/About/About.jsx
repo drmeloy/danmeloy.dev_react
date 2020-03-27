@@ -66,6 +66,10 @@ export default function About(){
           <br/>
           <span>Technologies I am currently learning:</span>
           <div className={styles.Icons}>
+          <p>
+              <img src='../../../public/assets/scala.png' alt='scala icon'/>
+              <br/>Scala
+            </p>
             <p>
               <img src='../../../public/assets/graphql.png' alt='graphql icon'/>
               <br/>GraphQL

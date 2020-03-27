@@ -39,6 +39,20 @@
     font-size: .8em;
   }
 
+  @media (min-width: 10px) and (max-width: 720px) {
+    h1 {
+      font-size: 2em;
+    }
+
+    h2 {
+      font-size: 1em;
+    }
+
+    p, span {
+      font-size: .6em;
+    }
+  }
+
   @media (max-width: 1025px) {
     padding-left: 0;
   }
