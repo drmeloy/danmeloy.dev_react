@@ -22,6 +22,7 @@ export default function Nav(){
         spy={true}
         smooth={true}
         duration={800}
+        offset={1}
         className={styles.Link}
         activeClass={styles.Active}>
         <img className={styles.inactive} src='../../../public/assets/about.png'></img>
@@ -33,6 +34,7 @@ export default function Nav(){
         spy={true}
         smooth={true}
         duration={800}
+        offset={2}
         className={styles.Link}
         activeClass={styles.Active}>
         <img className={styles.inactive} src='../../../public/assets/work.png'></img>
@@ -44,6 +46,7 @@ export default function Nav(){
         spy={true}
         smooth={true}
         duration={800}
+        offset={3}
         className={styles.Link}
         activeClass={styles.Active}>
         <img className={styles.inactive} src='../../../public/assets/background.png'></img>
