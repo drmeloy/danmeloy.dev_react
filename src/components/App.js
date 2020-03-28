@@ -4,6 +4,7 @@ import Nav from './Nav/Nav';
 import About from './About/About';
 import Work from './Work/Work';
 import Background from './Background/Background';
+import Contact from './Contact/Contact';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <About />
       <Work />
       <Background />
+      <Contact />
     </>
   );
 }

@@ -46,7 +46,7 @@ export default function Nav(){
         spy={true}
         smooth={true}
         duration={800}
-        offset={3}
+        offset={2}
         className={styles.Link}
         activeClass={styles.Active}>
         <img className={styles.inactive} src='../../../public/assets/background.png'></img>
