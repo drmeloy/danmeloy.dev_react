@@ -1,5 +1,5 @@
 import React from 'react';
-import Landing from './Landing/Landing';
+import Home from './Home/Home';
 import Nav from './Nav/Nav';
 import About from './About/About';
 import Work from './Work/Work';
@@ -10,7 +10,7 @@ export default function App() {
   return (
     <>
       <Nav />
-      <Landing />
+      <Home />
       <About />
       <Work />
       <Background />

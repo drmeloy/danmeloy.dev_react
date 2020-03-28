@@ -7,7 +7,8 @@ export default function Nav(){
   return (
     <nav className={styles.Nav}>
       <Link
-        to='Landing'
+        to='Home'
+        hashSpy={true}
         spy={true}
         smooth={true}
         duration={800}
@@ -19,6 +20,7 @@ export default function Nav(){
       </Link>
       <Link
         to='About'
+        hashSpy={true}
         spy={true}
         smooth={true}
         duration={800}
@@ -31,6 +33,7 @@ export default function Nav(){
       </Link>
       <Link
         to='Work'
+        hashSpy={true}
         spy={true}
         smooth={true}
         duration={800}
@@ -43,10 +46,11 @@ export default function Nav(){
       </Link>
       <Link
         to='Background'
+        hashSpy={true}
         spy={true}
         smooth={true}
         duration={800}
-        offset={2}
+        offset={3}
         className={styles.Link}
         activeClass={styles.Active}>
         <img className={styles.inactive} src='../../../public/assets/background.png'></img>
@@ -55,6 +59,7 @@ export default function Nav(){
       </Link>
       <Link
         to='Contact'
+        hashSpy={true}
         spy={true}
         smooth={true}
         duration={800}

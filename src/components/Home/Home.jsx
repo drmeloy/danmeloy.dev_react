@@ -2,9 +2,9 @@ import React from 'react';
 import styles from './Landing.css';
 import { Element } from 'react-scroll';
 
-export default function Landing(){
+export default function Home(){
   return (
-    <Element id='Landing' name='Landing'>
+    <Element id='Home' name='Home'>
       <section className={styles.Landing}>
         <h2 className='animated fadeInDown'>Modern development</h2>
         <p className='animated fadeInDown'>by</p>
