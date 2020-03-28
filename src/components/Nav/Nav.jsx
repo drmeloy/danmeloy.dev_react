@@ -8,7 +8,6 @@ export default function Nav(){
     <nav className={styles.Nav}>
       <Link
         to='Home'
-        hashSpy={true}
         spy={true}
         smooth={true}
         duration={800}
@@ -20,8 +19,8 @@ export default function Nav(){
       </Link>
       <Link
         to='About'
-        hashSpy={true}
         spy={true}
+        hashSpy={true}
         smooth={true}
         duration={800}
         offset={1}
@@ -33,8 +32,8 @@ export default function Nav(){
       </Link>
       <Link
         to='Work'
-        hashSpy={true}
         spy={true}
+        hashSpy={true}
         smooth={true}
         duration={800}
         offset={2}
@@ -46,8 +45,8 @@ export default function Nav(){
       </Link>
       <Link
         to='Background'
-        hashSpy={true}
         spy={true}
+        hashSpy={true}
         smooth={true}
         duration={800}
         offset={3}
@@ -59,8 +58,8 @@ export default function Nav(){
       </Link>
       <Link
         to='Contact'
-        hashSpy={true}
         spy={true}
+        hashSpy={true}
         smooth={true}
         duration={800}
         offset={4}
