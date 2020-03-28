@@ -98,7 +98,7 @@
 
 .Skills {
   padding: 4%;
-  width: 70vw;
+  width: 68vw;
   
   span {
     font-family: 'Raleway', sans-serif;
@@ -171,15 +171,9 @@
     }
   }
 
-  @media (min-width: 721px) and (max-width: 900px){
+  @media (min-width: 721px) and (max-width: 1025px){
     p {
-      font-size: .8em;
-    }
-  }
-
-  @media (min-width: 901px) and (max-width: 1025px){
-    p {
-      font-size: 1em;
+      font-size: .6em;
     }
   }
 
@@ -209,7 +203,7 @@
     color: white;
     position: relative;
     left: 70%;
-    bottom: 52vh;
+    top: 20vh;
     border-radius: 5px;
     transition: .3s;
   }
@@ -217,5 +211,15 @@
   a:hover {
     background: #0000007d;
     transition: .3s;
+  }
+
+  @media (max-width: 1025px){
+    width: 50%;
+    text-align: center;
+    padding-top: 5vh;
+
+    a {
+      position: unset;
+    }
   }
 }

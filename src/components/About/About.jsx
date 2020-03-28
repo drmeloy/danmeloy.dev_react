@@ -11,6 +11,9 @@ export default function About(){
           <p><p className={styles.Hello}>Hello! My name is Dan.</p><br/>I&apos;m a full-stack software engineer. I use technical skill and interpersonal connections to create beautiful and innovative digital products. I believe that meaningful relationships lead to positive results. As such, I seek to invest in people as much as in the technologies we use.</p>
           <img className={styles.Headshot} src='../../../public/assets/dan.jpg' alt='headshot of dan' />
         </div>
+        <div className={styles.Resume}>
+          <a href='../../../public/assets/Dan Meloy Software Engineer Resume.pdf' target='_blank'>View my resume here</a>
+        </div>
         <div className={styles.Skills}>
           <span>Technologies I currently use:</span>
           <div className={styles.Icons}>
@@ -84,9 +87,7 @@ export default function About(){
             </p>
           </div>
         </div>
-        <div className={styles.Resume}>
-          <a href='../../../public/assets/Dan Meloy Software Engineer Resume.pdf' target='_blank'>View my resume here</a>
-        </div>
+
       </section>
     </Element>
   );
