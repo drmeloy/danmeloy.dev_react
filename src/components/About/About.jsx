@@ -8,7 +8,7 @@ export default function About(){
       <section className={styles.About}>
         <img className={styles.CroppedHeadshot} src='../../../public/assets/headshot.jfif' alt='headshot of dan' />
         <div className={styles.Container}>
-          <p><p className={styles.Hello}>Hello! My name is Dan.</p><br/>I&apos;m a full-stack software engineer. I use technical skill and interpersonal connections to create beautiful and innovative digital products. I believe that meaningful relationships lead to positive results. As such, I seek to invest in people as much as in the technologies we use.</p>
+          <p><p className={styles.Hello}>Hello! My name is Dan.</p><br/>I&apos;m a full-stack software engineer. I use technical skill and interpersonal connection to create beautiful and innovative digital products. I believe that meaningful relationships lead to positive results. As such, I seek to invest in people as much as in the technologies we use.</p>
           <img className={styles.Headshot} src='../../../public/assets/dan.jpg' alt='headshot of dan' />
         </div>
         <div className={styles.Resume}>
@@ -56,6 +56,10 @@ export default function About(){
             <p>
               <img src='../../../public/assets/heroku.png' alt='heroku icon'/>
               <br/>Heroku
+            </p>
+            <p>
+              <img src='../../../public/assets/netlify.png' alt='netlify icon'/>
+              <br/>Netlify
             </p>
             <p>
               <img src='../../../public/assets/jest.png' alt='jest icon'/>
