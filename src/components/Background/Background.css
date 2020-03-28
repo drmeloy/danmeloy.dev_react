@@ -1,6 +1,6 @@
 .Background {
   width: 100%;
-  min-height: 100vh;
+  min-height: 101vh;
   padding-left: 130px;
   padding-top: 1%;
 
@@ -46,11 +46,12 @@
 
   .Closer {
     font-size: 1em;
-    width: 80vw;
+    width: 70vw;
     text-align: right;
     font-weight: bold;
-    float: right;
     padding: 2vw 3vw;
+    position: relative;
+    left: 20%;
   }
 
   @media (min-width: 10px) and (max-width: 1025px){

@@ -54,10 +54,11 @@ export default function Nav(){
         <p>Background</p>
       </Link>
       <Link
-        to='Background'
+        to='Contact'
         spy={true}
         smooth={true}
         duration={800}
+        offset={4}
         className={styles.Link}
         activeClass={styles.Active}>
         <img className={styles.inactive} src='../../../public/assets/contact.png'></img>
