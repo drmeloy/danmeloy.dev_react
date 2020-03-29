@@ -50,14 +50,18 @@ export default function Work2(){
                 </figure>
               </div>
               <div className={styles2.Icons}><p>View on:</p>
-                <figure>
-                  <a href='https://friendlier-staging.netlify.com/login' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-                  <figcaption>WWW</figcaption>
-                </figure>
-                <figure>
-                  <a href='https://github.com/band-m' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a>
-                  <figcaption>Github</figcaption>
-                </figure>
+                <a href='https://friendlier-staging.netlify.com/login' target='_blank' rel='noopener noreferrer'>
+                  <figure>
+                    <img src='../../../public/assets/webpage.png' alt='webpage icon'/>
+                    <figcaption>WWW</figcaption>
+                  </figure>
+                </a>
+                <a href='https://github.com/band-m' target='_blank' rel='noopener noreferrer'>
+                  <figure>
+                    <img src='../../../public/assets/github.png' alt='github icon'/>
+                    <figcaption>Github</figcaption>
+                  </figure>
+                </a>
               </div>
             </div>
           </div>

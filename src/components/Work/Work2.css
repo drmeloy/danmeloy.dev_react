@@ -63,7 +63,9 @@
 }
 
 .Project {
+  height: 70vh;
   display: flex;
+  align-items: center;
   padding: 2% 0 2% 3%;
 
   .Screenshot {
@@ -74,7 +76,10 @@
   .Icons {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    align-items: center;
     width: 90%;
+    padding-top: 3%;
 
     p {
       width: fit-content;
@@ -99,7 +104,7 @@
       transition: .3s;
     }
 
-    figure:hover > img {
+    figure:hover > img, figure:hover > a {
       opacity: .5;
       transition: .3s;
     }
@@ -121,7 +126,7 @@
   p, span {
     font-family: 'Raleway', sans-serif;
     color: white;
-    font-size: .8rem;
+    font-size: 1rem;
     width: 100%;
   }
 
@@ -139,7 +144,7 @@
 
   h1 {
     font-family: 'Abril Fatface', cursive;
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: white;
   }
 
