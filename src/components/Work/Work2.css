@@ -55,7 +55,7 @@
         0 25.2px 20.2px rgba(0, 0, 0, 0.18),
         0 39.3px 48.5px rgba(0, 0, 0, 0.235),
         0 74px 161px rgba(0, 0, 0, 0.36);
-
+        cursor: default;
     }
   }
 
@@ -66,8 +66,52 @@
   display: flex;
   padding: 2% 0 2% 3%;
 
+  .Screenshot {
+    max-width: 40%;
+    height: auto;
+  }
+
+  .Icons {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 90%;
+
+    p {
+      width: fit-content;
+      padding-right: 0;
+    }
+
+    figure {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-left: 5%;
+    }
+
+    figcaption {
+      position: absolute;
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      font-size: .6em;
+      opacity: 0;
+      transition: .3s;
+    }
+
+    figure:hover > img {
+      opacity: .5;
+      transition: .3s;
+    }
+
+    figure:hover > figcaption {
+      opacity: 1;
+      transition: .3s;
+    }
+  }
+
   div {
-    width: 49%;
+    width: 50%;
     padding-left: 2%;
     display: flex;
     flex-direction: column;
@@ -77,18 +121,12 @@
   p, span {
     font-family: 'Raleway', sans-serif;
     color: white;
-    font-size: 1.2rem;
+    font-size: .8rem;
     width: 100%;
   }
 
-  img {
-    width: 30%;
-  }
-
-  p > img, a > img, span > img {
-    max-width: 75px;
-    height: auto;
-    margin-left: 2%;
+  a > img, figure > img {
+    height: 5vh;
   }
 
   a {
@@ -101,7 +139,7 @@
 
   h1 {
     font-family: 'Abril Fatface', cursive;
-    font-size: 2em;
+    font-size: 1.2em;
     color: white;
   }
 

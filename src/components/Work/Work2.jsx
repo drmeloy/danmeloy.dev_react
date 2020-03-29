@@ -23,20 +23,42 @@ export default function Work2(){
         </div>
         { project === 'kit' ? 
           <div className={styles2.Project}>
-            <img src='../../../public/assets/kit.png' />
+            <img className={styles2.Screenshot} src='../../../public/assets/kit.png' />
             <div>
               <h1>KiT: Keeping In Touch</h1>
               <p>A progressive web app for setting, tracking, and meeting communication goals. User can input contacts, set communication goals, receive push notification reminders, and view communication logs. Contacts are automatically sorted and styled based on proximity to communcation deadline.</p>
-              <p>Built with:
-                <img src='../../../public/assets/react.png' alt='react icon'/>
-                <img src='../../../public/assets/redux.png' alt='redux icon'/>
-                <img src='../../../public/assets/mongodb.png' alt='mongodb icon'/>
-                <img src='../../../public/assets/node.png' alt='node icon'/>
-                <img src='../../../public/assets/css.png' alt='css icon'/>
-                <span>View on:
+              <div className={styles2.Icons}><p>Built with:</p>
+                <figure>
+                  <img src='../../../public/assets/react.png' alt='react icon'/>
+                  <figcaption>React</figcaption>
+                </figure>
+                <figure>
+                  <img src='../../../public/assets/redux.png' alt='redux icon'/>
+                  <figcaption>Redux</figcaption>
+                </figure>
+                <figure>
+                  <img src='../../../public/assets/mongodb.png' alt='mongodb icon'/>
+                  <figcaption>MongoDB</figcaption>
+                </figure>
+                <figure>
+                  <img src='../../../public/assets/node.png' alt='node icon'/>
+                  <figcaption>NodeJS</figcaption>
+                </figure>
+                <figure>
+                  <img src='../../../public/assets/css.png' alt='css icon'/>
+                  <figcaption>CSS</figcaption>
+                </figure>
+              </div>
+              <div className={styles2.Icons}><p>View on:</p>
+                <figure>
                   <a href='https://friendlier-staging.netlify.com/login' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-                  <a href='https://github.com/band-m' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a></span>
-              </p>
+                  <figcaption>WWW</figcaption>
+                </figure>
+                <figure>
+                  <a href='https://github.com/band-m' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a>
+                  <figcaption>Github</figcaption>
+                </figure>
+              </div>
             </div>
           </div>
 
