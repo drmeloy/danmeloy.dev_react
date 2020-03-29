@@ -3,7 +3,7 @@ import styles2 from './Work2.css';
 import { Element } from 'react-scroll';
 
 export default function Work2(){
-  const [project, setProject] = useState('');
+  const [project, setProject] = useState('kit');
 
   return (
     <Element id='Work' name='Work'>
@@ -12,14 +12,14 @@ export default function Work2(){
           <p>Selected projects:</p>
         </div>
         <div className={styles2.Buttons}>
-          <span onMouseOver={() => setProject('kit')} onClick={() => setProject('kit')} className={styles2.Button}>KiT: Keeping In Touch</span>
-          <span onMouseOver={() => setProject('know')} onClick={() => setProject('know')} className={styles2.Button}>KNOWOncology</span>
-          <span onMouseOver={() => setProject('tnt')} onClick={() => setProject('tnt')} className={styles2.Button}>Treks n&apos; Trails</span>
-          <span onMouseOver={() => setProject('band')} onClick={() => setProject('band')} className={styles2.Button}>Band Search</span>
-          <span onMouseOver={() => setProject('address')} onClick={() => setProject('address')} className={styles2.Button}>Address Book</span>
-          <span onMouseOver={() => setProject('dreamy')} onClick={() => setProject('dreamy')} className={styles2.Button}>DREAMy</span>
-          <span onMouseOver={() => setProject('github')} onClick={() => setProject('github')} className={styles2.Button}>Github Viewer</span>
-          <span onMouseOver={() => setProject('qwixx')} onClick={() => setProject('qwixx')} className={styles2.Button}>Qwixx</span>
+          <span onMouseOver={() => setProject('kit')} className={project === 'kit' ? styles2.ActiveButton : styles2.Button}>KiT: Keeping In Touch</span>
+          <span onMouseOver={() => setProject('know')} className={project === 'know' ? styles2.ActiveButton : styles2.Button}>KNOWOncology</span>
+          <span onMouseOver={() => setProject('tnt')} className={project === 'tnt' ? styles2.ActiveButton : styles2.Button}>Treks n&apos; Trails</span>
+          <span onMouseOver={() => setProject('band')} className={project === 'band' ? styles2.ActiveButton : styles2.Button}>Band Search</span>
+          <span onMouseOver={() => setProject('address')} className={project === 'address' ? styles2.ActiveButton : styles2.Button}>Address Book</span>
+          <span onMouseOver={() => setProject('dreamy')} className={project === 'dreamy' ? styles2.ActiveButton : styles2.Button}>DREAMy</span>
+          <span onMouseOver={() => setProject('github')} className={project === 'github' ? styles2.ActiveButton : styles2.Button}>Github Viewer</span>
+          <span onMouseOver={() => setProject('qwixx')} className={project === 'qwixx' ? styles2.ActiveButton : styles2.Button}>Qwixx</span>
         </div>
         { project === 'kit' ? 
           <div className={styles2.Project}>
