@@ -228,53 +228,116 @@ export default function Work2(){
 
                   : project === 'dreamy' ?
                     <div className={styles2.Project}>
-                      <img src='../../../public/assets/dreamy.png' />
+                      <img className={styles2.Screenshot} src='../../../public/assets/dreamy.png' />
                       <div>
                         <h1>DREAMy</h1>
                         <p>Postman clone with trippy aesthetics. A user can hit any REST API endpoint with the GET, POST, PUT, PATCH, and DELETE methods, as well as add customized authentication headers. History is logged, viewable, and revistable.</p>
-                        <p>Built with:
-                          <img src='../../../public/assets/react.png' alt='react icon'/>
-                          <img src='../../../public/assets/js.png' alt='javascript icon'/>
-                          <img src='../../../public/assets/css.png' alt='css icon'/>
-                          <span>View on:
-                            <a href='https://drmeloy.github.io/lab-28-RESTy/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-                            <a href='https://github.com/drmeloy/lab-28-RESTy/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a></span>
-                        </p>
+                        <div className={styles2.Icons}><p>Built with:</p>
+                          <figure>
+                            <img src='../../../public/assets/react.png' alt='react icon'/>
+                            <figcaption>React</figcaption>
+                          </figure>
+                          <figure>
+                            <img src='../../../public/assets/js.png' alt='javascript icon'/>
+                            <figcaption>JavaScript</figcaption>
+                          </figure>
+                          <figure>
+                            <img src='../../../public/assets/css.png' alt='css icon'/>
+                            <figcaption>CSS</figcaption>
+                          </figure>
+                        </div>
+                        <div className={styles2.Icons}><p>View on:</p>
+                          <a href='https://drmeloy.github.io/lab-28-RESTy/' target='_blank' rel='noopener noreferrer'>
+                            <figure>
+                              <img src='../../../public/assets/webpage.png' alt='webpage icon'/>
+                              <figcaption>WWW</figcaption>
+                            </figure>
+                          </a>
+                          <a href='https://github.com/drmeloy/lab-28-RESTy/' target='_blank' rel='noopener noreferrer'>
+                            <figure>
+                              <img src='../../../public/assets/github.png' alt='github icon'/>
+                              <figcaption>Github</figcaption>
+                            </figure>
+                          </a>
+                        </div>
                       </div>
                     </div>
 
                     : project === 'github' ?
                       <div className={styles2.Project}>
-                        <img src='../../../public/assets/githubviewer.png' />
+                        <img className={styles2.Screenshot} src='../../../public/assets/githubviewer.png' />
                         <div>
                           <h1>Github Viewer</h1>
                           <p>Application used to view Github profiles and their repositories, pull requests, and issues in one convenient space. Hits the Github API and utilizes Redux for state management.</p>
-                          <p>Built with:
-                            <img src='../../../public/assets/react.png' alt='react icon'/>
-                            <img src='../../../public/assets/redux.png' alt='redux icon'/>
-                            <img src='../../../public/assets/js.png' alt='javascript icon'/>
-                            <img src='../../../public/assets/css.png' alt='css icon'/>
-                            <span>View on:
-                              <a href='https://drmeloy.github.io/lab-40-github-viewer/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-                              <a href='https://github.com/drmeloy/lab-40-github-viewer/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a></span>
-                          </p>
+                          <div className={styles2.Icons}><p>Built with:</p>
+                            <figure>
+                              <img src='../../../public/assets/react.png' alt='react icon'/>
+                              <figcaption>React</figcaption>
+                            </figure>
+                            <figure>
+                              <img src='../../../public/assets/redux.png' alt='redux icon'/>
+                              <figcaption>Redux</figcaption>
+                            </figure>
+                            <figure>
+                              <img src='../../../public/assets/js.png' alt='javascript icon'/>
+                              <figcaption>JavaScript</figcaption>
+                            </figure>
+                            <figure>
+                              <img src='../../../public/assets/css.png' alt='css icon'/>
+                              <figcaption>CSS</figcaption>
+                            </figure>
+                          </div>
+                          <div className={styles2.Icons}><p>View on:</p>
+                            <a href='https://drmeloy.github.io/lab-40-github-viewer/' target='_blank' rel='noopener noreferrer'>
+                              <figure>
+                                <img src='../../../public/assets/webpage.png' alt='webpage icon'/>
+                                <figcaption>WWW</figcaption>
+                              </figure>
+                            </a>
+                            <a href='https://github.com/drmeloy/lab-40-github-viewer/' target='_blank' rel='noopener noreferrer'>
+                              <figure>
+                                <img src='../../../public/assets/github.png' alt='github icon'/>
+                                <figcaption>Github</figcaption>
+                              </figure>
+                            </a>
+                          </div>
                         </div>
                       </div>
 
                       : project === 'qwixx' ?
                         <div className={styles2.Project}>
-                          <img src='../../../public/assets/quixx.png' />
+                          <img className={styles2.Screenshot} src='../../../public/assets/quixx.png' />
                           <div>
                             <h1>Qwixx</h1>
                             <p>A mobile-responsive JavaScript implementation of the popular Qwixx dice game <a href='https://gamewright.com/product/Qwixx' target='_blank' rel='noopener noreferrer'>(https://gamewright.com/product/Qwixx)</a> that speeds gameplay and doesn&apos;t rely on paper scorecards. Developed with face-to-face multiplayer in mind with each player&apos;s device acting as their scorecard.</p>
-                            <span>Built with: 
-                              <img src='../../../public/assets/js.png' alt='javascript icon'/>
-                              <img src='../../../public/assets/html.png' alt='html icon'/>
-                              <img src='../../../public/assets/css.png' alt='css icon'/>
-                              <p>View on:
-                                <a href='https://i-16.github.io/qwixx/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-                                <a href='https://github.com/I-16/qwixx' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a></p>
-                            </span>
+                            <div className={styles2.Icons}><p>Built with:</p>
+                              <figure>
+                                <img src='../../../public/assets/js.png' alt='javascript icon'/>
+                                <figcaption>JavaScript</figcaption>
+                              </figure>
+                              <figure>
+                                <img src='../../../public/assets/html.png' alt='html icon'/>
+                                <figcaption>HTML</figcaption>
+                              </figure>
+                              <figure>
+                                <img src='../../../public/assets/css.png' alt='css icon'/>
+                                <figcaption>CSS</figcaption>
+                              </figure>
+                            </div>
+                            <div className={styles2.Icons}><p>View on:</p>
+                              <a href='https://i-16.github.io/qwixx/' target='_blank' rel='noopener noreferrer'>
+                                <figure>
+                                  <img src='../../../public/assets/webpage.png' alt='webpage icon'/>
+                                  <figcaption>WWW</figcaption>
+                                </figure>
+                              </a>
+                              <a href='https://github.com/I-16/qwixx' target='_blank' rel='noopener noreferrer'>
+                                <figure>
+                                  <img src='../../../public/assets/github.png' alt='github icon'/>
+                                  <figcaption>Github</figcaption>
+                                </figure>
+                              </a>
+                            </div>
                           </div>
                         </div>
                         : ''
