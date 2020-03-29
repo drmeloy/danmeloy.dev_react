@@ -68,73 +68,161 @@ export default function Work2(){
 
           : project === 'know' ?
             <div className={styles2.Project}>
-              <img src='../../../public/assets/know.png' />
+              <img className={styles2.Screenshot} src='../../../public/assets/know.png' />
               <div>
                 <h1>Knowoncology</h1>
                 <p>A client-driven backend migration for a naturopathic cancer research non-profit database <a href='https://www.knowoncology.org/' target='_blank' rel='noopener noreferrer'>(www.knowoncology.org)</a> built with MongoDB, resulting in 10x faster search speed and more reliable search results.</p>
-                <p>Built with:
-                  <img src='../../../public/assets/mongodb.png' alt='mongodb icon'/>
-                  <img src='../../../public/assets/node.png' alt='node icon'/>
-                  <img src='../../../public/assets/js.png' alt='javascript icon'/>
-                  <img src='../../../public/assets/css.png' alt='css icon'/>
-                  <span>View on:
-                    <a href='https://knowoncology.herokuapp.com' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-                    <a href='https://github.com/kNOWOncology/knowoncology/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a></span>
-                </p>
+                <div className={styles2.Icons}><p>Built with:</p>
+                  <figure>
+                    <img src='../../../public/assets/mongodb.png' alt='mongodb icon'/>
+                    <figcaption>MongoDB</figcaption>
+                  </figure>
+                  <figure>
+                    <img src='../../../public/assets/node.png' alt='node icon'/>
+                    <figcaption>NodeJS</figcaption>
+                  </figure>
+                  <figure>
+                    <img src='../../../public/assets/js.png' alt='javascript icon'/>
+                    <figcaption>JavaScript</figcaption>
+                  </figure>
+                  <figure>
+                    <img src='../../../public/assets/css.png' alt='css icon'/>
+                    <figcaption>CSS</figcaption>
+                  </figure> 
+                </div>
+                <div className={styles2.Icons}><p>View on:</p>
+                  <a href='https://knowoncology.herokuapp.com' target='_blank' rel='noopener noreferrer'>
+                    <figure>
+                      <img src='../../../public/assets/webpage.png' alt='webpage icon'/>
+                      <figcaption>WWW</figcaption>
+                    </figure>
+                  </a>
+                  <a href='https://github.com/kNOWOncology/knowoncology/' target='_blank' rel='noopener noreferrer'>
+                    <figure>
+                      <img src='../../../public/assets/github.png' alt='github icon'/>
+                      <figcaption>Github</figcaption>
+                    </figure>
+                  </a>
+                </div>
               </div>
             </div>
 
             : project === 'tnt' ?
               <div className={styles2.Project}>
-                <img src='../../../public/assets/treksntrails.png' />
+                <img className={styles2.Screenshot} src='../../../public/assets/treksntrails.png' />
                 <div>
                   <h1>Treks n&apos; Trails</h1>
                   <p>Hiking and camping tool that munges data from five different APIs to generate a list of hiking trails, campgrounds, weather, and directions from a current or specified location. Hikes can be filtered by difficulty and length and a user can favorite a hike for later reference.</p>
-                  <p>Built with:
-                    <img src='../../../public/assets/postgres.png' alt='postgres icon'/>
-                    <img src='../../../public/assets/node.png' alt='node icon'/>
-                    <img src='../../../public/assets/js.png' alt='javascript icon'/>
-                    <img src='../../../public/assets/css.png' alt='css icon'/>
-                    <span>View on:
-                      <a href='https://treksntrails.herokuapp.com' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-                      <a href='https://github.com/Plant-Parenthood/treks-n-tents' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a></span>
-                  </p>
+                  <div className={styles2.Icons}><p>Built with:</p>
+                    <figure>
+                      <img src='../../../public/assets/postgres.png' alt='postgres icon'/>
+                      <figcaption>PostgreSQL</figcaption>
+                    </figure>
+                    <figure>
+                      <img src='../../../public/assets/node.png' alt='node icon'/>
+                      <figcaption>NodeJS</figcaption>
+                    </figure>
+                    <figure>
+                      <img src='../../../public/assets/js.png' alt='javascript icon'/>
+                      <figcaption>JavaScript</figcaption>
+                    </figure>
+                    <figure>
+                      <img src='../../../public/assets/css.png' alt='css icon'/>
+                      <figcaption>CSS</figcaption>
+                    </figure>
+                  </div>
+                  <div className={styles2.Icons}><p>View on:</p>
+                    <a href='https://treksntrails.herokuapp.com' target='_blank' rel='noopener noreferrer'>
+                      <figure>
+                        <img src='../../../public/assets/webpage.png' alt='webpage icon'/>
+                        <figcaption>WWW</figcaption>
+                      </figure>
+                    </a>
+                    <a href='https://github.com/Plant-Parenthood/treks-n-tents' target='_blank' rel='noopener noreferrer'>
+                      <figure>
+                        <img src='../../../public/assets/github.png' alt='github icon'/>
+                        <figcaption>Github</figcaption>
+                      </figure>
+                    </a>
+                  </div>
                 </div>
               </div>
 
               : project === 'band' ?
                 <div className={styles2.Project}>
-                  <img src='../../../public/assets/bandsearch.png' />
+                  <img className={styles2.Screenshot} src='../../../public/assets/bandsearch.png' />
                   <div>
                     <h1>Band Search</h1>
-                    <p>Single page application to search musical artists, view discographies, examine albums, and get song lyrics</p>
-                    <p>
-              Built with:
-                      <img src='../../../public/assets/react.png' alt='react icon'/>
-                      <img src='../../../public/assets/js.png' alt='javascript icon'/>
-                      <img src='../../../public/assets/css.png' alt='css icon'/>
-                      <span>View on:
-                        <a href='https://drmeloy.github.io/Artist-Search/' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-                        <a href='https://github.com/drmeloy/Artist-Search' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a></span>
-                    </p>
+                    <p>Single page application to search musical artists, view discographies, examine albums, and get song lyrics.</p>
+                    <div className={styles2.Icons}><p>Built with:</p>
+                      <figure>
+                        <img src='../../../public/assets/react.png' alt='react icon'/>
+                        <figcaption>React</figcaption>
+                      </figure>
+                      <figure>
+                        <img src='../../../public/assets/js.png' alt='javascript icon'/>
+                        <figcaption>JavaScript</figcaption>
+                      </figure>
+                      <figure>
+                        <img src='../../../public/assets/css.png' alt='css icon'/>
+                        <figcaption>CSS</figcaption>
+                      </figure>
+                    </div>
+                    <div className={styles2.Icons}><p>View on:</p>
+                      <a href='https://drmeloy.github.io/Artist-Search/' target='_blank' rel='noopener noreferrer'>
+                        <figure>
+                          <img src='../../../public/assets/webpage.png' alt='webpage icon'/>
+                          <figcaption>WWW</figcaption>
+                        </figure>
+                      </a>
+                      <a href='https://github.com/drmeloy/Artist-Search' target='_blank' rel='noopener noreferrer'>
+                        <figure>
+                          <img src='../../../public/assets/github.png' alt='github icon'/>
+                          <figcaption>Github</figcaption>
+                        </figure>
+                      </a>
+                    </div>
                   </div>
                 </div>
 
                 : project === 'address' ? 
                   <div className={styles2.Project}>
-                    <img src='../../../public/assets/addressbook.png' />
+                    <img className={styles2.Screenshot} src='../../../public/assets/addressbook.png' />
                     <div>
                       <h1>Address Book</h1>
                       <p>Full-stack CRUD application that allows a user to input, save, view, edit, and delete their contacts. User authentication ensures privacy of contact information.</p>
-                      <p>Built with:
-                        <img src='../../../public/assets/mongodb.png' alt='mongodb icon'/>
-                        <img src='../../../public/assets/node.png' alt='node icon'/>
-                        <img src='../../../public/assets/js.png' alt='javascript icon'/>
-                        <img src='../../../public/assets/css.png' alt='css icon'/>
-                        <span>View on:
-                          <a href='https://alchemyaddressesbook.herokuapp.com' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/webpage.png' alt='webpage icon'/></a>
-                          <a href='https://github.com/drmeloy/lab-15-address-book' target='_blank' rel='noopener noreferrer'><img src='../../../public/assets/github.png' alt='github icon'/></a></span>
-                      </p>
+                      <div className={styles2.Icons}><p>Built with:</p>
+                        <figure>
+                          <img src='../../../public/assets/mongodb.png' alt='mongodb icon'/>
+                          <figcaption>MongoDB</figcaption>
+                        </figure>
+                        <figure>
+                          <img src='../../../public/assets/node.png' alt='node icon'/>
+                          <figcaption>NodeJS</figcaption>
+                        </figure>
+                        <figure>
+                          <img src='../../../public/assets/js.png' alt='javascript icon'/>
+                          <figcaption>JavaScript</figcaption>
+                        </figure>
+                        <figure>
+                          <img src='../../../public/assets/css.png' alt='css icon'/>
+                          <figcaption>CSS</figcaption>
+                        </figure>
+                      </div>
+                      <div className={styles2.Icons}><p>View on:</p>
+                        <a href='https://alchemyaddressesbook.herokuapp.com' target='_blank' rel='noopener noreferrer'>
+                          <figure>
+                            <img src='../../../public/assets/webpage.png' alt='webpage icon'/>
+                            <figcaption>WWW</figcaption>
+                          </figure>
+                        </a>
+                        <a href='https://github.com/drmeloy/lab-15-address-book' target='_blank' rel='noopener noreferrer'>
+                          <figure>
+                            <img src='../../../public/assets/github.png' alt='github icon'/>
+                            <figcaption>Github</figcaption>
+                          </figure>
+                        </a>
+                      </div>
                     </div>
                   </div>
 
