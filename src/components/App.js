@@ -5,16 +5,18 @@ import About from './About/About';
 import Work from './Work/Work';
 import Background from './Background/Background';
 import Contact from './Contact/Contact';
+import Work2 from './Work/Work2';
 
 export default function App() {
   return (
     <>
-      <Nav />
+      {/* <Nav />
       <Home />
       <About />
       <Work />
       <Background />
-      <Contact />
+      <Contact /> */}
+      <Work2 />
     </>
   );
 }
