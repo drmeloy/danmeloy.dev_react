@@ -5,6 +5,7 @@ import About from './About/About';
 import Work from './Work/Work';
 import Background from './Background/Background';
 import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Work />
       <Background />
       <Contact />
+      <Footer />
     </>
   );
 }
