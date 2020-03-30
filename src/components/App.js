@@ -5,7 +5,6 @@ import About from './About/About';
 import Work from './Work/Work';
 import Background from './Background/Background';
 import Contact from './Contact/Contact';
-import Work2 from './Work/Work2';
 
 export default function App() {
   return (
@@ -13,8 +12,7 @@ export default function App() {
       <Nav />
       <Home />
       <About />
-      {/* <Work /> */}
-      <Work2 />
+      <Work />
       <Background />
       <Contact />
     </>
