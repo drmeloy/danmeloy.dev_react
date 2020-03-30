@@ -1,0 +1,217 @@
+.Work {
+  padding-left: 130px;
+  min-height: 101vh;
+
+  p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    width: 85vw;
+    padding: 1% 5%;
+    line-height: 1.3;
+    color: white;
+  }
+
+  @media (min-width: 10px) and (max-width: 720px){
+
+    p {
+      font-size: .8em;
+    }
+  }
+
+  @media (max-width: 1025px){
+    padding: 1%;
+  }
+
+  .Buttons {
+    display: flex;
+    justify-content: space-evenly;
+
+    @media (min-width: 10px) and (max-width: 720px){
+      flex-wrap: wrap;
+      justify-content: center;
+      font-size: .8em;
+      row-gap: .5em;
+      column-gap: .5em;
+    }
+
+    .Button {
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Raleway', sans-serif;
+      font-size: .8em;
+      color: white;
+      background: #03120347;
+      border: 1px solid;
+      padding: 1%;
+      text-align: center;
+      transition: .3s;
+
+      @media (min-width: 10px) and (max-width: 720px){
+        margin: 1%;
+      }
+    }
+
+    .ActiveButton {
+      border-radius: 8px;
+      font-family: 'Raleway', sans-serif;
+      font-size: .9em;
+      font-weight: bold;
+      color: white;
+      background: #009688;
+      border: 1px solid;
+      padding: 1%;
+      text-align: center;
+      transition: .3s;
+      box-shadow:
+        0 13.2px 7.3px rgba(0, 0, 0, 0.125),
+        0 25.2px 20.2px rgba(0, 0, 0, 0.18),
+        0 39.3px 48.5px rgba(0, 0, 0, 0.235),
+        0 74px 161px rgba(0, 0, 0, 0.36);
+        cursor: default;
+
+        @media (min-width: 10px) and (max-width: 720px){
+          font-size: .8em;
+          font-weight: normal;
+          display: flex;
+          align-items: center;
+        }
+    }
+  }
+
+  background: linear-gradient(135deg, rgba(101, 215, 91, 0.26) 0%, rgba(101, 215, 91, 0.26) 2%,rgba(87, 200, 111, 0.26) 2%, rgba(87, 200, 111, 0.26) 7%,rgba(72, 185, 131, 0.26) 7%, rgba(72, 185, 131, 0.26) 16%,rgba(58, 170, 151, 0.26) 16%, rgba(58, 170, 151, 0.26) 24%,rgba(43, 154, 170, 0.26) 24%, rgba(43, 154, 170, 0.26) 67%,rgba(29, 139, 190, 0.26) 67%, rgba(29, 139, 190, 0.26) 72%,rgba(14, 124, 210, 0.26) 72%, rgba(14, 124, 210, 0.26) 100%),linear-gradient(135deg, rgba(96, 227, 174, 0.26) 0%, rgba(96, 227, 174, 0.26) 32%,rgba(111, 197, 164, 0.26) 32%, rgba(111, 197, 164, 0.26) 55%,rgba(126, 168, 154, 0.26) 55%, rgba(126, 168, 154, 0.26) 69%,rgba(141, 138, 145, 0.26) 69%, rgba(141, 138, 145, 0.26) 79%,rgba(156, 108, 135, 0.26) 79%, rgba(156, 108, 135, 0.26) 82%,rgba(171, 79, 125, 0.26) 82%, rgba(171, 79, 125, 0.26) 84%,rgba(186, 49, 115, 0.26) 84%, rgba(186, 49, 115, 0.26) 100%),linear-gradient(90deg, rgb(60, 34, 11) 0%, rgb(60, 34, 11) 3%,rgb(60, 51, 15) 3%, rgb(60, 51, 15) 4%,rgb(60, 68, 19) 4%, rgb(60, 68, 19) 12%,rgb(60, 85, 24) 12%, rgb(60, 85, 24) 40%,rgb(60, 101, 28) 40%, rgb(60, 101, 28) 69%,rgb(60, 118, 32) 69%, rgb(60, 118, 32) 88%,rgb(60, 135, 36) 88%, rgb(60, 135, 36) 100%);
+}
+
+.Project {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  padding: 2% 0 2% 3%;
+
+  .Screenshot {
+    max-width: 40%;
+    height: auto;
+
+    @media (max-width: 1025px){
+      max-width: 75%;
+      margin-bottom: 5%;
+    }
+  }
+
+  .Icons {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    align-items: center;
+    width: 90%;
+    padding-top: 3%;
+
+    p {
+      width: fit-content;
+      padding-right: 0;
+    }
+
+    figure {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-left: 5%;
+      cursor: default;
+    }
+
+    figcaption {
+      position: absolute;
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      font-size: .6em;
+      opacity: 0;
+      transition: .3s;
+    }
+
+    figure:hover > img, figure:hover > a {
+      opacity: .5;
+      transition: .3s;
+    }
+
+    figure:hover > figcaption {
+      opacity: 1;
+      transition: .3s;
+    }
+
+    .Link {
+      cursor: pointer;
+    }
+  }
+
+  div {
+    width: 50%;
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  p, span {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  a > img, figure > img {
+    height: 5vh;
+  }
+
+  a {
+    color: #ffffff8a;
+  }
+
+  a:hover {
+    color: #0000ffad;
+  }
+
+  h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.5em;
+    color: white;
+  }
+
+  @media (min-width: 10px) and (max-width: 720px){
+    div {
+      width: 100%;
+      margin-bottom: 5%;
+    }
+
+    h1 {
+      font-size: 1em;
+    }
+
+    p {
+      font-size: .7em;
+    }
+  }
+
+  @media (min-width: 721px) and (max-width: 1025px) {
+    p > img, a > img, span > img {
+      max-width: 50px;
+    }
+  }
+
+  @media (max-width: 1025px){
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+
+    div {
+      width: 90%;
+      margin-bottom: 5%;
+    }
+
+    h1, p {
+      text-align: center;
+    }
+  }
+}

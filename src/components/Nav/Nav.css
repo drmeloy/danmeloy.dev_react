@@ -1,0 +1,77 @@
+.Nav {
+  position: fixed;
+  width: 6%;
+  height: 100vh;
+  color: white;
+  background-color: #00000099;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1%;
+
+  img {
+    height: 3.5vh;
+    animation: fadeIn 1s;
+  }
+
+  img.active {
+    display: none;
+  }
+
+  p {
+    display: none;
+    height: 4vh;
+    font-family: 'Abril Fatface', cursive;
+    font-size: .7rem;
+  }
+
+  .Link {
+    height: 8vh;
+    width: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Link:hover {
+    cursor: pointer;
+
+    img {
+      display: none;
+    }
+
+    img.active {
+      display: none;
+    }
+
+    p {
+      display: flex;
+      align-items: center;
+      animation: fadeIn 1s;
+    }
+  }
+
+  .Active {
+    img.inactive {
+      display: none;
+    }
+
+    img.active {
+      display: block;
+    }
+
+    p {
+      color: #fff700;
+    }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0;}
+    to { opacity: 1;}
+  }
+
+  @media (min-width: 10px) and (max-width: 1025px) {
+    display: none;
+  }
+}

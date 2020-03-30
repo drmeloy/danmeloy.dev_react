@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Work component matches snapshot 1`] = `
+<Element
+  id="Work"
+  name="Work"
+>
+  <section
+    className="Work"
+  >
+    <p>
+      Selected projects:
+    </p>
+    <div
+      className="Buttons"
+    >
+      <span
+        className="ActiveButton"
+        onMouseOver={[Function]}
+      >
+        KiT: Keeping In Touch
+      </span>
+      <span
+        className="Button"
+        onMouseOver={[Function]}
+      >
+        KNOWOncology
+      </span>
+      <span
+        className="Button"
+        onMouseOver={[Function]}
+      >
+        Treks n' Trails
+      </span>
+      <span
+        className="Button"
+        onMouseOver={[Function]}
+      >
+        Band Search
+      </span>
+      <span
+        className="Button"
+        onMouseOver={[Function]}
+      >
+        Address Book
+      </span>
+      <span
+        className="Button"
+        onMouseOver={[Function]}
+      >
+        DREAMy
+      </span>
+      <span
+        className="Button"
+        onMouseOver={[Function]}
+      >
+        Github Viewer
+      </span>
+      <span
+        className="Button"
+        onMouseOver={[Function]}
+      >
+        Qwixx
+      </span>
+    </div>
+    <div
+      className="Project"
+    >
+      <img
+        className="Screenshot"
+        src="../../../public/assets/kit.png"
+      />
+      <div>
+        <h1>
+          KiT: Keeping In Touch
+        </h1>
+        <p>
+          A progressive web app for setting, tracking, and meeting communication goals. User can input contacts, set communication goals, receive push notification reminders, and view communication logs. Contacts are automatically sorted and styled based on proximity to communcation deadline.
+        </p>
+        <div
+          className="Icons"
+        >
+          <p>
+            Built with:
+          </p>
+          <figure>
+            <img
+              alt="react icon"
+              src="../../../public/assets/react.png"
+            />
+            <figcaption>
+              React
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              alt="redux icon"
+              src="../../../public/assets/redux.png"
+            />
+            <figcaption>
+              Redux
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              alt="mongodb icon"
+              src="../../../public/assets/mongodb.png"
+            />
+            <figcaption>
+              MongoDB
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              alt="node icon"
+              src="../../../public/assets/node.png"
+            />
+            <figcaption>
+              NodeJS
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              alt="css icon"
+              src="../../../public/assets/css.png"
+            />
+            <figcaption>
+              CSS
+            </figcaption>
+          </figure>
+        </div>
+        <div
+          className="Icons"
+        >
+          <p>
+            View on:
+          </p>
+          <a
+            href="https://friendlier-staging.netlify.com/login"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <figure
+              className="Link"
+            >
+              <img
+                alt="webpage icon"
+                src="../../../public/assets/webpage.png"
+              />
+              <figcaption>
+                WWW
+              </figcaption>
+            </figure>
+          </a>
+          <a
+            href="https://github.com/band-m"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <figure
+              className="Link"
+            >
+              <img
+                alt="github icon"
+                src="../../../public/assets/github.png"
+              />
+              <figcaption>
+                Github
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Element>
+`;

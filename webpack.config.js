@@ -8,7 +8,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'bundle.[hash].js',
-    publicPath: '/'
+    publicPath: './'
   },
   devServer: {
     port: 7890,
@@ -27,7 +27,8 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
+        resolve: { extensions: ['.js', '.jsx'] },
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
