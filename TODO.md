@@ -4,23 +4,24 @@ Project Description
 
 ### Todo
 
-- [ ] Create full Contact page  
 - [ ] Create mobile hamburger menu  
 - [ ] Create footer  
-- [ ] Touch up Band-M github  
-- [ ] Change Address Book picture to use fake addresses  
-- [ ] Make hover effects for Background and Works  
-- [ ] Resize everything  
+- [ ] Touch up Band-M github and Band Search  
+- [ ] Create snapshot tests  
 
 ### In Progress
 
-- [ ] Create full Nav bar (add hashes)  
 
 ### Done ✓
 
+- [x] Create full Contact page  
+- [x] Change Address Book picture to use fake addresses  
+- [x] Make hover effects for Background and Works  
 - [x] Create full Landing page  
 - [x] Create full About page  
 - [x] Create full Skills page  
 - [x] Create full Work page  
 - [x] Create full Background page  
+- [x] Create full Nav bar (add hashes)  
+- [x] Resize everything  
 
