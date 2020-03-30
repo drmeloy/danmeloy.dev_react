@@ -76,7 +76,7 @@
   max-width: 15%;
   min-width: 200px;
   height: auto;
-  margin: 2% 10%;
+  margin: 1% 10%;
   border: 1px solid black;
   border-radius: 15px;
 
@@ -98,11 +98,12 @@
 
 .Skills {
   padding: 4%;
+  padding-top: 0;
   width: 68vw;
   
   span {
     font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
+    font-size: .8rem;
     margin-top: 5%;
     margin-bottom: 3%;
   }
@@ -137,13 +138,13 @@
   p {
     margin: 1%;
     border-radius: 50%;
-    height: 12vh;
-    width: 12vh;
+    height: 11vh;
+    width: 11vh;
     background: #ffffff17;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     color: white;
-    font-size: .6rem;
+    font-size: .5rem;
     padding: 1%;
     padding-top: 0;
     transition: .5s;
@@ -161,19 +162,19 @@
 
   @media (min-width: 300px) and (max-width: 370px){
     p {
-      font-size: .4em;
+      font-size: .3em;
     }
   }
 
   @media (min-width: 371px) and (max-width: 720px){
     p {
-      font-size: .5em;
+      font-size: .4em;
     }
   }
 
   @media (min-width: 721px) and (max-width: 1025px){
     p {
-      font-size: .6em;
+      font-size: .5em;
     }
   }
 
@@ -203,9 +204,10 @@
     color: white;
     position: relative;
     left: 70%;
-    top: 20vh;
+    top: 12vh;
     border-radius: 5px;
     transition: .3s;
+    font-size: .8em;
   }
   
   a:hover {
