@@ -9,8 +9,6 @@ export default function Hamburger(){
   const sidebar = useRef();
 
   const clickMenu = () => {
-    console.log(sidebar.classList);
-    
     if(!open){
       setOpen(!open);
     } else {
@@ -19,7 +17,6 @@ export default function Hamburger(){
         setOpen(!open);
       }, 500);
     }
-    
   };
 
   return (
@@ -31,8 +28,8 @@ export default function Hamburger(){
           burger='emphatic'
           color={'#C0C0C0'}
           scale={.5}
-          marginTop={0}
-          marginLeft={0}
+          marginTop={'0'}
+          marginLeft={'0'}
         />
       </div>
       {open ? <nav ref={sidebar} className={styles.BurgerNav}>
