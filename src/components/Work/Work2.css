@@ -84,7 +84,7 @@
 }
 
 .Project {
-  height: 70vh;
+  margin-top: 5%;
   display: flex;
   align-items: center;
   padding: 2% 0 2% 3%;
@@ -95,7 +95,7 @@
 
     @media (max-width: 1025px){
       max-width: 75%;
-      margin: 5% auto;
+      margin-bottom: 5%;
     }
   }
 
