@@ -119,6 +119,7 @@
       align-items: center;
       position: relative;
       margin-left: 5%;
+      cursor: default;
     }
 
     figcaption {
@@ -138,6 +139,10 @@
     figure:hover > figcaption {
       opacity: 1;
       transition: .3s;
+    }
+
+    .Link {
+      cursor: pointer;
     }
   }
 

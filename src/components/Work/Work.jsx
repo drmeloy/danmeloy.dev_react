@@ -49,13 +49,13 @@ export default function Work2(){
               </div>
               <div className={styles.Icons}><p>View on:</p>
                 <a href='https://friendlier-staging.netlify.com/login' target='_blank' rel='noopener noreferrer'>
-                  <figure>
+                  <figure className={styles.Link}>
                     <img src='../../../public/assets/webpage.png' alt='webpage icon'/>
                     <figcaption>WWW</figcaption>
                   </figure>
                 </a>
                 <a href='https://github.com/band-m' target='_blank' rel='noopener noreferrer'>
-                  <figure>
+                  <figure className={styles.Link}>
                     <img src='../../../public/assets/github.png' alt='github icon'/>
                     <figcaption>Github</figcaption>
                   </figure>
@@ -90,13 +90,13 @@ export default function Work2(){
                 </div>
                 <div className={styles.Icons}><p>View on:</p>
                   <a href='https://knowoncology.herokuapp.com' target='_blank' rel='noopener noreferrer'>
-                    <figure>
+                    <figure className={styles.Link}>
                       <img src='../../../public/assets/webpage.png' alt='webpage icon'/>
                       <figcaption>WWW</figcaption>
                     </figure>
                   </a>
                   <a href='https://github.com/kNOWOncology/knowoncology/' target='_blank' rel='noopener noreferrer'>
-                    <figure>
+                    <figure className={styles.Link}>
                       <img src='../../../public/assets/github.png' alt='github icon'/>
                       <figcaption>Github</figcaption>
                     </figure>
@@ -131,13 +131,13 @@ export default function Work2(){
                   </div>
                   <div className={styles.Icons}><p>View on:</p>
                     <a href='https://treksntrails.herokuapp.com' target='_blank' rel='noopener noreferrer'>
-                      <figure>
+                      <figure className={styles.Link}>
                         <img src='../../../public/assets/webpage.png' alt='webpage icon'/>
                         <figcaption>WWW</figcaption>
                       </figure>
                     </a>
                     <a href='https://github.com/Plant-Parenthood/treks-n-tents' target='_blank' rel='noopener noreferrer'>
-                      <figure>
+                      <figure className={styles.Link}>
                         <img src='../../../public/assets/github.png' alt='github icon'/>
                         <figcaption>Github</figcaption>
                       </figure>
@@ -168,13 +168,13 @@ export default function Work2(){
                     </div>
                     <div className={styles.Icons}><p>View on:</p>
                       <a href='https://drmeloy.github.io/Artist-Search/' target='_blank' rel='noopener noreferrer'>
-                        <figure>
+                        <figure className={styles.Link}>
                           <img src='../../../public/assets/webpage.png' alt='webpage icon'/>
                           <figcaption>WWW</figcaption>
                         </figure>
                       </a>
                       <a href='https://github.com/drmeloy/Artist-Search' target='_blank' rel='noopener noreferrer'>
-                        <figure>
+                        <figure className={styles.Link}>
                           <img src='../../../public/assets/github.png' alt='github icon'/>
                           <figcaption>Github</figcaption>
                         </figure>
@@ -209,13 +209,13 @@ export default function Work2(){
                       </div>
                       <div className={styles.Icons}><p>View on:</p>
                         <a href='https://alchemyaddressesbook.herokuapp.com' target='_blank' rel='noopener noreferrer'>
-                          <figure>
+                          <figure className={styles.Link}>
                             <img src='../../../public/assets/webpage.png' alt='webpage icon'/>
                             <figcaption>WWW</figcaption>
                           </figure>
                         </a>
                         <a href='https://github.com/drmeloy/lab-15-address-book' target='_blank' rel='noopener noreferrer'>
-                          <figure>
+                          <figure className={styles.Link}>
                             <img src='../../../public/assets/github.png' alt='github icon'/>
                             <figcaption>Github</figcaption>
                           </figure>
@@ -246,13 +246,13 @@ export default function Work2(){
                         </div>
                         <div className={styles.Icons}><p>View on:</p>
                           <a href='https://drmeloy.github.io/lab-28-RESTy/' target='_blank' rel='noopener noreferrer'>
-                            <figure>
+                            <figure className={styles.Link}>
                               <img src='../../../public/assets/webpage.png' alt='webpage icon'/>
                               <figcaption>WWW</figcaption>
                             </figure>
                           </a>
                           <a href='https://github.com/drmeloy/lab-28-RESTy/' target='_blank' rel='noopener noreferrer'>
-                            <figure>
+                            <figure className={styles.Link}>
                               <img src='../../../public/assets/github.png' alt='github icon'/>
                               <figcaption>Github</figcaption>
                             </figure>
@@ -287,13 +287,13 @@ export default function Work2(){
                           </div>
                           <div className={styles.Icons}><p>View on:</p>
                             <a href='https://drmeloy.github.io/lab-40-github-viewer/' target='_blank' rel='noopener noreferrer'>
-                              <figure>
+                              <figure className={styles.Link}>
                                 <img src='../../../public/assets/webpage.png' alt='webpage icon'/>
                                 <figcaption>WWW</figcaption>
                               </figure>
                             </a>
                             <a href='https://github.com/drmeloy/lab-40-github-viewer/' target='_blank' rel='noopener noreferrer'>
-                              <figure>
+                              <figure className={styles.Link}>
                                 <img src='../../../public/assets/github.png' alt='github icon'/>
                                 <figcaption>Github</figcaption>
                               </figure>
@@ -324,13 +324,13 @@ export default function Work2(){
                             </div>
                             <div className={styles.Icons}><p>View on:</p>
                               <a href='https://i-16.github.io/qwixx/' target='_blank' rel='noopener noreferrer'>
-                                <figure>
+                                <figure className={styles.Link}>
                                   <img src='../../../public/assets/webpage.png' alt='webpage icon'/>
                                   <figcaption>WWW</figcaption>
                                 </figure>
                               </a>
                               <a href='https://github.com/I-16/qwixx' target='_blank' rel='noopener noreferrer'>
-                                <figure>
+                                <figure className={styles.Link}>
                                   <img src='../../../public/assets/github.png' alt='github icon'/>
                                   <figcaption>Github</figcaption>
                                 </figure>

@@ -39,6 +39,27 @@
     font-size: .8em;
   }
 
+  div {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    animation-delay: .5s;
+  }
+
+  img {
+    height: 5vh;
+    opacity: .1;
+    transition: .3s;
+  }
+
+  img:hover {
+    opacity: .6;
+    cursor: pointer;
+    transition: .3s;
+  }
+
   @media (min-width: 10px) and (max-width: 720px) {
     h1 {
       font-size: 2em;
