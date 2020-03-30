@@ -36,7 +36,7 @@ export default function Nav(){
         hashSpy={true}
         smooth={true}
         duration={800}
-        offset={2}
+        offset={4}
         className={styles.Link}
         activeClass={styles.Active}>
         <img className={styles.inactive} src='../../../public/assets/work.png'></img>
@@ -49,7 +49,7 @@ export default function Nav(){
         hashSpy={true}
         smooth={true}
         duration={800}
-        offset={3}
+        offset={4}
         className={styles.Link}
         activeClass={styles.Active}>
         <img className={styles.inactive} src='../../../public/assets/background.png'></img>
@@ -62,7 +62,7 @@ export default function Nav(){
         hashSpy={true}
         smooth={true}
         duration={800}
-        offset={4}
+        offset={6}
         className={styles.Link}
         activeClass={styles.Active}>
         <img className={styles.inactive} src='../../../public/assets/contact.png'></img>

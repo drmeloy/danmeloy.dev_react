@@ -10,13 +10,13 @@ import Work2 from './Work/Work2';
 export default function App() {
   return (
     <>
-      {/* <Nav />
+      <Nav />
       <Home />
       <About />
-      <Work />
-      <Background />
-      <Contact /> */}
+      {/* <Work /> */}
       <Work2 />
+      <Background />
+      <Contact />
     </>
   );
 }
