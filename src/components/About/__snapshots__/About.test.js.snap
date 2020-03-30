@@ -1,7 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`About component matches snapshot 1`] = `
-<Fragment>
+<Element
+  id="About"
+  name="About"
+>
   <section
     className="About"
   >
@@ -10,14 +13,189 @@ exports[`About component matches snapshot 1`] = `
       className="CroppedHeadshot"
       src="../../../public/assets/headshot.jfif"
     />
-    <p>
-      Hello! My name is Dan. I'm a full-stack software engineer. I use technical skill and strong interpersonal connections to create beautiful and innovative digital products. I believe that meaningful relationships lead to positive results. As such, I seek to invest in people as much as in the technologies we use.
-    </p>
-    <img
-      alt="headshot of dan"
-      className="Headshot"
-      src="../../../public/assets/dan.jpg"
-    />
+    <div
+      className="Container"
+    >
+      <p>
+        <span
+          className="Hello"
+        >
+          Hello! My name is Dan.
+        </span>
+        <br />
+        I'm a full-stack software engineer. I use technical skill and interpersonal connection to create beautiful and innovative digital products. I believe that meaningful relationships lead to positive results. As such, I seek to invest in people as much as in the technologies we use.
+      </p>
+      <img
+        alt="headshot of dan"
+        className="Headshot"
+        src="../../../public/assets/dan.jpg"
+      />
+    </div>
+    <div
+      className="Resume"
+    >
+      <a
+        href="../../../public/assets/Dan Meloy Software Engineer Resume.pdf"
+        target="_blank"
+      >
+        View my resume here
+      </a>
+    </div>
+    <div
+      className="Skills"
+    >
+      <span>
+        Technologies I currently use:
+      </span>
+      <div
+        className="Icons"
+      >
+        <p>
+          <img
+            alt="javascript icon"
+            src="../../../public/assets/js.png"
+          />
+          <br />
+          Javascript
+        </p>
+        <p>
+          <img
+            alt="html icon"
+            src="../../../public/assets/html.png"
+          />
+          <br />
+          HTML
+        </p>
+        <p>
+          <img
+            alt="css icon"
+            src="../../../public/assets/css.png"
+          />
+          <br />
+          CSS
+        </p>
+        <p>
+          <img
+            alt="node icon"
+            src="../../../public/assets/node.png"
+          />
+          <br />
+          Node.js
+        </p>
+        <p>
+          <img
+            alt="react icon"
+            src="../../../public/assets/react.png"
+          />
+          <br />
+          React
+        </p>
+        <p>
+          <img
+            alt="redux icon"
+            src="../../../public/assets/redux.png"
+          />
+          <br />
+          Redux
+        </p>
+        <p>
+          <img
+            alt="mongodb icon"
+            src="../../../public/assets/mongodb.png"
+          />
+          <br />
+          MongoDB
+        </p>
+        <p>
+          <img
+            alt="postgres icon"
+            src="../../../public/assets/postgres.png"
+          />
+          <br />
+          PostgreSQL
+        </p>
+        <p>
+          <img
+            alt="github icon"
+            src="../../../public/assets/github.png"
+          />
+          <br />
+          Github
+        </p>
+        <p>
+          <img
+            alt="heroku icon"
+            src="../../../public/assets/heroku.png"
+          />
+          <br />
+          Heroku
+        </p>
+        <p>
+          <img
+            alt="netlify icon"
+            src="../../../public/assets/netlify.png"
+          />
+          <br />
+          Netlify
+        </p>
+        <p>
+          <img
+            alt="jest icon"
+            src="../../../public/assets/jest.png"
+          />
+          <br />
+          Jest
+        </p>
+        <p>
+          <img
+            alt="shell icon"
+            src="../../../public/assets/shell.png"
+          />
+          <br />
+          Shell
+        </p>
+      </div>
+      <br />
+      <span>
+        Technologies I am currently learning:
+      </span>
+      <div
+        className="Icons"
+      >
+        <p>
+          <img
+            alt="scala icon"
+            src="../../../public/assets/scala.png"
+          />
+          <br />
+          Scala
+        </p>
+        <p>
+          <img
+            alt="graphql icon"
+            src="../../../public/assets/graphql.png"
+          />
+          <br />
+          GraphQL
+        </p>
+        <p>
+          <img
+            alt="typescript icon"
+            src="../../../public/assets/typescript.png"
+          />
+          <br />
+          Typescript
+        </p>
+        <p>
+          <img
+            alt="sass icon"
+            src="../../../public/assets/sass.png"
+          />
+          <br />
+          Sass
+        </p>
+      </div>
+    </div>
   </section>
-</Fragment>
+</Element>
 `;

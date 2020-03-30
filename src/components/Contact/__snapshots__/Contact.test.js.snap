@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact component matches snapshot 1`] = `
+<Fragment>
+  <Element
+    id="Contact"
+    name="Contact"
+  >
+    <section
+      className="Contact"
+    >
+      <p
+        className="Message"
+      >
+        Thank you for visiting my site.
+        <br />
+        <br />
+        I am currently available for full-time and contract work.
+      </p>
+      <div
+        className="Info"
+      >
+        <p
+          className="Via"
+        >
+          Contact Dan Meloy via:
+        </p>
+        <p>
+          <span>
+            Phone:
+          </span>
+           (503)-704-2278
+        </p>
+        <p>
+          <span>
+            Email:
+          </span>
+           drmeloy@gmail.com
+        </p>
+        <p>
+          <span>
+            Github:
+          </span>
+           
+          <a
+            href="https://github.com/drmeloy"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            /drmeloy
+          </a>
+        </p>
+        <p>
+          <span>
+            LinkdIn:
+          </span>
+           
+          <a
+            href="https://www.linkedin.com/in/dan-meloy/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            /in/drmeloy
+          </a>
+        </p>
+        <p>
+          <span>
+            Twitter:
+          </span>
+           
+          <a
+            href="https://twitter.com/DevvyDan"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            /DevvyDan
+          </a>
+        </p>
+      </div>
+    </section>
+  </Element>
+</Fragment>
+`;

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component matches snapshot 1`] = `
+<Element
+  id="Home"
+  name="Home"
+>
+  <section
+    className="Landing"
+  >
+    <h2
+      className="animated fadeInDown"
+    >
+      Modern development
+    </h2>
+    <p
+      className="animated fadeInDown"
+    >
+      by
+    </p>
+    <h1
+      className="animated fadeInDown"
+    >
+      Dan Meloy
+    </h1>
+    <span
+      className="animated fadeIn"
+    >
+      Full-stack digital solutions
+    </span>
+    <div
+      className="animated fadeIn"
+    >
+      <a
+        href="https://github.com/drmeloy"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="github link"
+          src="../../../public/assets/github_landing.png"
+        />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/dan-meloy/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="linkedin link"
+          src="../../../public/assets/linkedin_landing.png"
+        />
+      </a>
+      <a
+        href="https://twitter.com/DevvyDan"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="twitter link"
+          src="../../../public/assets/twitter_landing.png"
+        />
+      </a>
+      <a
+        href="mailto:drmeloy@gmail.com"
+      >
+        <img
+          alt="email link"
+          src="../../../public/assets/email_landing.png"
+        />
+      </a>
+    </div>
+  </section>
+</Element>
+`;

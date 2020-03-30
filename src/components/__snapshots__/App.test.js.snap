@@ -3,8 +3,11 @@
 exports[`App component renders App 1`] = `
 <Fragment>
   <Nav />
-  <Landing />
+  <Home />
   <About />
-  <Skills />
+  <Work2 />
+  <Background />
+  <Contact />
+  <Footer />
 </Fragment>
 `;

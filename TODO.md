@@ -5,7 +5,6 @@ Project Description
 ### Todo
 
 - [ ] Create mobile hamburger menu  
-- [ ] Create footer  
 - [ ] Touch up Band-M github and Band Search  
 - [ ] Create snapshot tests  
 
@@ -14,6 +13,7 @@ Project Description
 
 ### Done ✓
 
+- [x] Create footer  
 - [x] Create full Contact page  
 - [x] Change Address Book picture to use fake addresses  
 - [x] Make hover effects for Background and Works  

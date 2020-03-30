@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Landing.css';
+import styles from './Home.css';
 import { Element } from 'react-scroll';
 
 export default function Home(){
