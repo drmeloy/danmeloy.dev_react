@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hamburger component matches snapshop 1`] = `
+<Fragment>
+  <div
+    className="BurgerIcon"
+  >
+    <Burger
+      active={false}
+      burger="emphatic"
+      color="#C0C0C0"
+      hoverOpacity={1}
+      marginLeft="0"
+      marginTop="0"
+      onClick={[Function]}
+      scale={0.5}
+    />
+  </div>
+</Fragment>
+`;
