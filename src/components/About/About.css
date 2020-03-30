@@ -215,8 +215,12 @@
     transition: .3s;
   }
 
+  @media (min-width: 10px) and (max-width: 720px){
+    font-size: .7em;
+  }
+
   @media (max-width: 1025px){
-    width: 50%;
+    width: 70%;
     text-align: center;
     padding-top: 5vh;
 

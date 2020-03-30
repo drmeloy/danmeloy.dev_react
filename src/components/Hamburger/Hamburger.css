@@ -58,10 +58,12 @@
     }
   }
 
-  @media (min-width: 721px) and (max-width: 2015px){
+  @media (min-width: 721px) and (max-width: 1025px){
     p {
       font-size: .8em;
     }
+
+    width: 16%;
   }
 
   @media (max-width: 1025px){
