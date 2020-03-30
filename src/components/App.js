@@ -6,11 +6,13 @@ import Work from './Work/Work';
 import Background from './Background/Background';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
+import Hamburger from './Hamburger/Hamburger';
 
 export default function App() {
   return (
     <>
-      <Nav />
+      <Hamburger />
+      {/* <Nav /> */}
       <Home />
       <About />
       <Work />

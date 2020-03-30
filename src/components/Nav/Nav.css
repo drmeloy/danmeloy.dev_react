@@ -54,11 +54,11 @@
 
   .Active {
     img.inactive {
-      display: none
+      display: none;
     }
 
     img.active {
-      display: block
+      display: block;
     }
 
     p {
