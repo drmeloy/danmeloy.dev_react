@@ -5,14 +5,13 @@ Project Description
 ### Todo
 
 - [ ] Touch up Band-M github and Band Search  
-- [ ] style scroll bar?  
 
 ### In Progress
 
-- [ ] Create mobile hamburger menu  
 
 ### Done ✓
 
+- [x] Create mobile hamburger menu  
 - [x] Create snapshot tests  
 - [x] Create footer  
 - [x] Create full Contact page  
