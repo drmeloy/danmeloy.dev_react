@@ -38,7 +38,7 @@ exports[`Home component matches snapshot 1`] = `
       >
         <img
           alt="github link"
-          src="../../../public/assets/github_landing.png"
+          src="/public/assets/github_landing.png"
         />
       </a>
       <a
@@ -48,7 +48,7 @@ exports[`Home component matches snapshot 1`] = `
       >
         <img
           alt="linkedin link"
-          src="../../../public/assets/linkedin_landing.png"
+          src="/public/assets/linkedin_landing.png"
         />
       </a>
       <a
@@ -58,7 +58,7 @@ exports[`Home component matches snapshot 1`] = `
       >
         <img
           alt="twitter link"
-          src="../../../public/assets/twitter_landing.png"
+          src="/public/assets/twitter_landing.png"
         />
       </a>
       <a
@@ -66,7 +66,7 @@ exports[`Home component matches snapshot 1`] = `
       >
         <img
           alt="email link"
-          src="../../../public/assets/email_landing.png"
+          src="/public/assets/email_landing.png"
         />
       </a>
     </div>

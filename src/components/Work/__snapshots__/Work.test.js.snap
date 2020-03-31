@@ -68,7 +68,7 @@ exports[`Work component matches snapshot 1`] = `
     >
       <img
         className="Screenshot"
-        src="../../../public/assets/kit.png"
+        src="/public/assets/kit.png"
       />
       <div>
         <h1>
@@ -86,7 +86,7 @@ exports[`Work component matches snapshot 1`] = `
           <figure>
             <img
               alt="react icon"
-              src="../../../public/assets/react.png"
+              src="/public/assets/react.png"
             />
             <figcaption>
               React
@@ -95,7 +95,7 @@ exports[`Work component matches snapshot 1`] = `
           <figure>
             <img
               alt="redux icon"
-              src="../../../public/assets/redux.png"
+              src="/public/assets/redux.png"
             />
             <figcaption>
               Redux
@@ -104,7 +104,7 @@ exports[`Work component matches snapshot 1`] = `
           <figure>
             <img
               alt="mongodb icon"
-              src="../../../public/assets/mongodb.png"
+              src="/public/assets/mongodb.png"
             />
             <figcaption>
               MongoDB
@@ -113,7 +113,7 @@ exports[`Work component matches snapshot 1`] = `
           <figure>
             <img
               alt="node icon"
-              src="../../../public/assets/node.png"
+              src="/public/assets/node.png"
             />
             <figcaption>
               NodeJS
@@ -122,7 +122,7 @@ exports[`Work component matches snapshot 1`] = `
           <figure>
             <img
               alt="css icon"
-              src="../../../public/assets/css.png"
+              src="/public/assets/css.png"
             />
             <figcaption>
               CSS
@@ -145,7 +145,7 @@ exports[`Work component matches snapshot 1`] = `
             >
               <img
                 alt="webpage icon"
-                src="../../../public/assets/webpage.png"
+                src="/public/assets/webpage.png"
               />
               <figcaption>
                 WWW
@@ -162,7 +162,7 @@ exports[`Work component matches snapshot 1`] = `
             >
               <img
                 alt="github icon"
-                src="../../../public/assets/github.png"
+                src="/public/assets/github.png"
               />
               <figcaption>
                 Github

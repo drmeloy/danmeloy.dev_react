@@ -14,7 +14,7 @@ exports[`Skills component matches snapshot 1`] = `
       <p>
         <img
           alt="javascript icon"
-          src="../../../public/assets/js.png"
+          src="/public/assets/js.png"
         />
         <br />
         Javascript
@@ -22,7 +22,7 @@ exports[`Skills component matches snapshot 1`] = `
       <p>
         <img
           alt="html icon"
-          src="../../../public/assets/html.png"
+          src="/public/assets/html.png"
         />
         <br />
         HTML
@@ -30,7 +30,7 @@ exports[`Skills component matches snapshot 1`] = `
       <p>
         <img
           alt="css icon"
-          src="../../../public/assets/css.png"
+          src="/public/assets/css.png"
         />
         <br />
         CSS
@@ -38,7 +38,7 @@ exports[`Skills component matches snapshot 1`] = `
       <p>
         <img
           alt="node icon"
-          src="../../../public/assets/node.png"
+          src="/public/assets/node.png"
         />
         <br />
         Node.js
@@ -46,7 +46,7 @@ exports[`Skills component matches snapshot 1`] = `
       <p>
         <img
           alt="react icon"
-          src="../../../public/assets/react.png"
+          src="/public/assets/react.png"
         />
         <br />
         React
@@ -54,7 +54,7 @@ exports[`Skills component matches snapshot 1`] = `
       <p>
         <img
           alt="redux icon"
-          src="../../../public/assets/redux.png"
+          src="/public/assets/redux.png"
         />
         <br />
         Redux
@@ -62,7 +62,7 @@ exports[`Skills component matches snapshot 1`] = `
       <p>
         <img
           alt="mongodb icon"
-          src="../../../public/assets/mongodb.png"
+          src="/public/assets/mongodb.png"
         />
         <br />
         MongoDB
@@ -70,7 +70,7 @@ exports[`Skills component matches snapshot 1`] = `
       <p>
         <img
           alt="postgres icon"
-          src="../../../public/assets/postgres.png"
+          src="/public/assets/postgres.png"
         />
         <br />
         PostgreSQL
@@ -78,7 +78,7 @@ exports[`Skills component matches snapshot 1`] = `
       <p>
         <img
           alt="github icon"
-          src="../../../public/assets/github.png"
+          src="/public/assets/github.png"
         />
         <br />
         Github
@@ -86,7 +86,7 @@ exports[`Skills component matches snapshot 1`] = `
       <p>
         <img
           alt="heroku icon"
-          src="../../../public/assets/heroku.png"
+          src="/public/assets/heroku.png"
         />
         <br />
         Heroku
@@ -94,7 +94,7 @@ exports[`Skills component matches snapshot 1`] = `
       <p>
         <img
           alt="jest icon"
-          src="../../../public/assets/jest.png"
+          src="/public/assets/jest.png"
         />
         <br />
         Jest
@@ -102,7 +102,7 @@ exports[`Skills component matches snapshot 1`] = `
       <p>
         <img
           alt="shell icon"
-          src="../../../public/assets/shell.png"
+          src="/public/assets/shell.png"
         />
         <br />
         Shell
@@ -118,7 +118,7 @@ exports[`Skills component matches snapshot 1`] = `
       <p>
         <img
           alt="graphql icon"
-          src="../../../public/assets/graphql.png"
+          src="/public/assets/graphql.png"
         />
         <br />
         GraphQL
@@ -126,7 +126,7 @@ exports[`Skills component matches snapshot 1`] = `
       <p>
         <img
           alt="typescript icon"
-          src="../../../public/assets/typescript.png"
+          src="/public/assets/typescript.png"
         />
         <br />
         Typescript
