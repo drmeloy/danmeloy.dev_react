@@ -6,7 +6,7 @@ export default function About(){
   return (
     <Element id='About' name='About'>
       <section className={styles.About}>
-        <img className={styles.CroppedHeadshot} src='/public/assets/headshot.jfif' alt='headshot of dan' />
+        <img className={styles.CroppedHeadshot} src='/public/assets/headshot.png' alt='headshot of dan' />
         <div className={styles.Container}>
           <p><span className={styles.Hello}>Hello! My name is Dan.</span><br/>I&apos;m a full-stack software engineer. I use technical skill and interpersonal connection to create beautiful and innovative digital products. I believe that meaningful relationships lead to positive results. As such, I seek to invest in people as much as in the technologies we use.</p>
           <img className={styles.Headshot} src='/public/assets/dan.jpg' alt='headshot of dan' />
