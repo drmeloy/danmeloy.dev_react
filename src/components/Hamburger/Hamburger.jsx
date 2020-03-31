@@ -60,6 +60,7 @@ export default function Hamburger(){
           hashSpy={true}
           smooth={true}
           duration={800}
+          offset={1}
           className={styles.Link}
           activeClass={styles.Active}>
           <img className={styles.inactive} src={about_icon} alt='about icon'></img>
@@ -72,6 +73,7 @@ export default function Hamburger(){
           hashSpy={true}
           smooth={true}
           duration={800}
+          offset={2}
           className={styles.Link}
           activeClass={styles.Active}>
           <img className={styles.inactive} src={work_icon} alt='work icon'></img>
@@ -84,6 +86,7 @@ export default function Hamburger(){
           hashSpy={true}
           smooth={true}
           duration={800}
+          offset={3}
           className={styles.Link}
           activeClass={styles.Active}>
           <img className={styles.inactive} src={background_icon} alt='background icon'></img>
@@ -96,6 +99,7 @@ export default function Hamburger(){
           hashSpy={true}
           smooth={true}
           duration={800}
+          offset={4}
           className={styles.Link}
           activeClass={styles.Active}>
           <img className={styles.inactive} src={contact_icon} alt='contact icon'></img>
