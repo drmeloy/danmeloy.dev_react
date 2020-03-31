@@ -1,15 +1,36 @@
 import React from 'react';
 import styles from './About.css';
 import { Element } from 'react-scroll';
+import cropped_headshot from '../../../public/assets/headshot.png';
+import headshot from '../../../public/assets/dan.jpg';
+import js_icon from '../../../public/assets/js.png';
+import html_icon from '../../../public/assets/html.png';
+import css_icon from '../../../public/assets/css.png';
+import node_icon from '../../../public/assets/node.png';
+import react_icon from '../../../public/assets/react.png';
+import redux_icon from '../../../public/assets/redux.png';
+import mongodb_icon from '../../../public/assets/mongodb.png';
+import postgres_icon from '../../../public/assets/postgres.png';
+import github_icon from '../../../public/assets/github.png';
+import heroku_icon from '../../../public/assets/heroku.png';
+import netlify_icon from '../../../public/assets/netlify.png';
+import jest_icon from '../../../public/assets/jest.png';
+import shell_icon from '../../../public/assets/shell.png';
+import vscode_icon from '../../../public/assets/vscode.png';
+import intellij_icon from '../../../public/assets/intellij.png';
+import scala_icon from '../../../public/assets/scala.png';
+import graphql_icon from '../../../public/assets/graphql.png';
+import typescript_icon from '../../../public/assets/typescript.png';
+import sass_icon from '../../../public/assets/sass.png';
 
 export default function About(){
   return (
     <Element id='About' name='About'>
       <section className={styles.About}>
-        <img className={styles.CroppedHeadshot} src='../../../public/assets/headshot.jfif' alt='headshot of dan' />
+        <img className={styles.CroppedHeadshot} src={cropped_headshot} alt='headshot of dan' />
         <div className={styles.Container}>
           <p><span className={styles.Hello}>Hello! My name is Dan.</span><br/>I&apos;m a full-stack software engineer. I use technical skill and interpersonal connection to create beautiful and innovative digital products. I believe that meaningful relationships lead to positive results. As such, I seek to invest in people as much as in the technologies we use.</p>
-          <img className={styles.Headshot} src='../../../public/assets/dan.jpg' alt='headshot of dan' />
+          <img className={styles.Headshot} src={headshot} alt='headshot of dan' />
         </div>
         <div className={styles.Resume}>
           <a href='../../../public/assets/Dan Meloy Software Engineer Resume.pdf' target='_blank'>View my resume here</a>
@@ -18,75 +39,83 @@ export default function About(){
           <span>Technologies I currently use:</span>
           <div className={styles.Icons}>
             <p>
-              <img src='../../../public/assets/js.png' alt='javascript icon'/>
+              <img src={js_icon} alt='javascript icon'/>
               <br/>Javascript
             </p>
             <p>
-              <img src='../../../public/assets/html.png' alt='html icon'/>
+              <img src={html_icon} alt='html icon'/>
               <br/>HTML
             </p>
             <p>
-              <img src='../../../public/assets/css.png' alt='css icon'/>
+              <img src={css_icon} alt='css icon'/>
               <br/>CSS
             </p>
             <p>
-              <img src='../../../public/assets/node.png' alt='node icon'/>
+              <img src={node_icon} alt='node icon'/>
               <br/>Node.js
             </p>
             <p>
-              <img src='../../../public/assets/react.png' alt='react icon'/>
+              <img src={react_icon} alt='react icon'/>
               <br/>React
             </p>
             <p>
-              <img src='../../../public/assets/redux.png' alt='redux icon'/>
+              <img src={redux_icon} alt='redux icon'/>
               <br/>Redux
             </p>
             <p>
-              <img src='../../../public/assets/mongodb.png' alt='mongodb icon'/>
+              <img src={mongodb_icon} alt='mongodb icon'/>
               <br/>MongoDB
             </p>
             <p>
-              <img src='../../../public/assets/postgres.png' alt='postgres icon'/>
+              <img src={postgres_icon} alt='postgres icon'/>
               <br/>PostgreSQL
             </p>
             <p>
-              <img src='../../../public/assets/github.png' alt='github icon'/>
+              <img src={github_icon} alt='github icon'/>
               <br/>Github
             </p>
             <p>
-              <img src='../../../public/assets/heroku.png' alt='heroku icon'/>
+              <img src={heroku_icon} alt='heroku icon'/>
               <br/>Heroku
             </p>
             <p>
-              <img src='../../../public/assets/netlify.png' alt='netlify icon'/>
+              <img src={netlify_icon} alt='netlify icon'/>
               <br/>Netlify
             </p>
             <p>
-              <img src='../../../public/assets/jest.png' alt='jest icon'/>
+              <img src={jest_icon} alt='jest icon'/>
               <br/>Jest
             </p>
             <p>
-              <img src='../../../public/assets/shell.png' alt='shell icon'/>
+              <img src={shell_icon} alt='shell icon'/>
               <br/>Shell
+            </p>
+            <p>
+              <img src={vscode_icon} alt='vscode icon'/>
+              <br/>VS Code
+            </p>
+            <p>
+              <img src={intellij_icon} alt='intellij icon'/>
+              <br/>IntelliJ
             </p>
           </div>
           <br/>
           <span>Technologies I am currently learning:</span>
           <div className={styles.Icons}>
             <p>
-              <img src='../../../public/assets/scala.png' alt='scala icon'/>
+              <img src={scala_icon} alt='scala icon'/>
               <br/>Scala
             </p>
             <p>
-              <img src='../../../public/assets/graphql.png' alt='graphql icon'/>
+              <img src={graphql_icon} alt='graphql icon'/>
               <br/>GraphQL
             </p>
             <p>
-              <img src='../../../public/assets/typescript.png' alt='typescript icon'/>
+              <img src={typescript_icon} alt='typescript icon'/>
               <br/>Typescript
             </p>
             <p>
-              <img src='../../../public/assets/sass.png' alt='sass icon'/>
+              <img src={sass_icon} alt='sass icon'/>
               <br/>Sass
             </p>
           </div>
