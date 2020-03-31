@@ -22,6 +22,7 @@ import scala_icon from '../../../public/assets/scala.png';
 import graphql_icon from '../../../public/assets/graphql.png';
 import typescript_icon from '../../../public/assets/typescript.png';
 import sass_icon from '../../../public/assets/sass.png';
+import resume from '../../../public/assets/Dan Meloy Software Engineer Resume.pdf';
 
 export default function About(){
   return (
@@ -33,7 +34,7 @@ export default function About(){
           <img className={styles.Headshot} src={headshot} alt='headshot of dan' />
         </div>
         <div className={styles.Resume}>
-          <a href='../../../public/assets/Dan Meloy Software Engineer Resume.pdf' target='_blank'>View my resume here</a>
+          <a href={resume} target='_blank' rel='noopener noreferrer'>View my resume here</a>
         </div>
         <div className={styles.Skills}>
           <span>Technologies I currently use:</span>
