@@ -20,12 +20,12 @@ import dreamy_screenshot from '../../../public/assets/dreamy.png';
 import github_viewer_screenshot from '../../../public/assets/githubviewer.png';
 import qwixx_screenshot from '../../../public/assets/quixx.png';
 
-export default function Work2(){
+export default function Work2(refProp){
   const [project, setProject] = useState('kit');
 
   return (
     <Element id='Work' name='Work'>
-      <section className={styles.Work}>
+      <section className={styles.Work} ref={refProp}>
         <p>Selected projects:</p>
         <div className={styles.Buttons}>
           <span onMouseOver={() => setProject('kit')} className={project === 'kit' ? styles.ActiveButton : styles.Button}>KiT: Keeping In Touch</span>

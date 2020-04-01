@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import styles from './Nav.css';
 import Scroll from 'react-scroll';
 const Link = Scroll.Link;
@@ -13,7 +13,8 @@ import background_active_icon from '../../../public/assets/background_active.png
 import contact_icon from '../../../public/assets/contact.png';
 import contact_active_icon from '../../../public/assets/contact_active.png';
 
-export default function Nav(){
+export default function Nav(refProp){
+
   return (
     <nav className={styles.Nav}>
       <Link
@@ -53,6 +54,7 @@ export default function Nav(){
         <img className={styles.active} src={work_active_icon} alt='work active icon'></img>
         <p>Work</p>
       </Link>
+      <button onClick={() => window.scrollTo(0, refProp.current.offsetTop)}>Hi</button>
       <Link
         to='Background'
         spy={true}
