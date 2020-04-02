@@ -22,10 +22,10 @@ export default function Hamburger(){
     if(!open){
       setOpen(true);
     } else {
-      sidebar.current.classList.add(styles.SlideOut);
       setTimeout(() => {
         setOpen(false);
-      }, 300);
+      }, 250);
+      sidebar.current.classList.add(styles.SlideOut);
     }
   };
 
