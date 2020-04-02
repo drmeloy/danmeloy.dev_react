@@ -24,7 +24,7 @@ export default function Hamburger(){
     } else {
       setTimeout(() => {
         setOpen(false);
-      }, 250);
+      }, 400);
       sidebar.current.classList.add(styles.SlideOut);
     }
   };
