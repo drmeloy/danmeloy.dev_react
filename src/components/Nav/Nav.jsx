@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Nav.css';
-import Scroll from 'react-scroll';
-const Link = Scroll.Link;
+import { Link } from 'react-scroll';
 import home_icon from '../../../public/assets/home.png';
 import home_active_icon from '../../../public/assets/home_active.png';
 import about_icon from '../../../public/assets/about.png';
