@@ -37,7 +37,7 @@ export default function Hamburger(){
           active={open}
           burger='emphatic'
           color={'#C0C0C0'}
-          scale={.5}
+          scale={.6}
           marginTop={'0'}
           marginLeft={'0'}
         />
