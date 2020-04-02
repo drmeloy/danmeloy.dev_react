@@ -22,10 +22,11 @@ export default function Hamburger(){
     if(!open){
       setOpen(true);
     } else {
-      setTimeout(() => {
-        setOpen(false);
-      }, 400);
       sidebar.current.classList.add(styles.SlideOut);
+      setTimeout(() => {
+        sidebar.current.setAttribute('style', 'display: none');
+        setOpen(false);
+      }, 500);
     }
   };
 
