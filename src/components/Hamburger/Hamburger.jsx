@@ -20,12 +20,12 @@ export default function Hamburger(){
 
   const clickMenu = () => {
     if(!open){
-      setOpen(!open);
+      setOpen(true);
     } else {
       sidebar.current.classList.add(styles.SlideOut);
       setTimeout(() => {
-        setOpen(!open);
-      }, 500);
+        setOpen(false);
+      }, 300);
     }
   };
 
