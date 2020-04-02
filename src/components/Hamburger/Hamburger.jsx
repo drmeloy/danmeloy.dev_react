@@ -24,7 +24,6 @@ export default function Hamburger(){
     } else {
       sidebar.current.classList.add(styles.SlideOut);
       setTimeout(() => {
-        sidebar.current.setAttribute('style', 'display: none');
         setOpen(false);
       }, 500);
     }
@@ -108,7 +107,7 @@ export default function Hamburger(){
           <p>Contact</p>
         </Link>
       </nav>
-        : ''}
+        : <div style={{ 'display': 'none' }}></div> }
     </>
   );
 }
