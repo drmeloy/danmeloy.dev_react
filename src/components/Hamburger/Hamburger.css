@@ -71,8 +71,8 @@
   }
 
   @keyframes slideIn {
-    from { transform: translateX(100%); }
-    to { transform: translateX(0); }
+    from { right: 100%; }
+    to { right: 0; }
   }
 }
 
@@ -80,7 +80,7 @@
   animation: slideOut .5s 1;
 
   @keyframes slideOut {
-    from { transform: translateX(0); }
-    to { transform: translateX(100%); }
+    from { right: 0; }
+    to { right: 100%; }
   }
 }
