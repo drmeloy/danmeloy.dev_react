@@ -20,7 +20,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   z-index: 1;
-  animation: slideIn .3s;
+  animation: slideIn .5s 1;
   display: none;
 
   .Link {
@@ -77,7 +77,7 @@
 }
 
 .SlideOut {
-  animation: slideOut .3s;
+  animation: slideOut .5s 1;
 
   @keyframes slideOut {
     from { transform: translateX(0); }
