@@ -18,6 +18,8 @@
 
   .Blurb {
     padding: 0 0 1% 3% ;
+    font-weight: bold;
+    font-style: italic;
   }
 
   .Titles {
@@ -45,13 +47,14 @@
   }
 
   .Closer {
-    font-size: 1em;
+    font-size: 1.2em;
     width: 70vw;
     text-align: right;
     font-weight: bold;
     padding: 2vw 3vw;
     position: relative;
     left: 20%;
+    font-style: italic;
   }
 
   @media (min-width: 10px) and (max-width: 1025px){

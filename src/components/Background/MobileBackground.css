@@ -13,7 +13,7 @@
     font-size: .7rem;
     width: 80vw;
     margin: 3% auto;
-    font-weight: normal;
+    font-style: italic;
   }
 
   .Excerpts {
@@ -41,6 +41,7 @@
     width: 80vw;
     text-align: center;
     margin: auto;
+    font-style: italic;
   }
 
   @media (min-width: 720px) and (max-width: 1025px) {
