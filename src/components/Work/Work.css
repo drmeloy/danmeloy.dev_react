@@ -89,7 +89,6 @@
   .Screenshot {
     max-width: 40%;
     height: auto;
-    justify-content: baseline;
 
     @media (max-width: 1025px){
       max-width: 75%;
