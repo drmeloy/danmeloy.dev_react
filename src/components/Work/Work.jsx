@@ -42,7 +42,7 @@ export default function Work2(){
             <img className={styles.Screenshot} src={kit_screenshot} alt='kit screenshot'/>
             <div>
               <h1>KiT: Keeping In Touch</h1>
-              <p>A progressive web app for setting, tracking, and meeting communication goals. User can input contacts, set communication goals, receive push notification reminders, and view communication logs. Contacts are automatically sorted and styled based on proximity to communcation deadline.</p>
+              <p>A progressive web app for setting, tracking, and meeting communication goals. User can input contacts, set communication goals, receive push notification reminders, and view communication logs. Contacts are automatically sorted and styled based on proximity to communication deadline.</p>
               <div className={styles.Icons}><p>Built with:</p>
                 <figure>
                   <img src={react_icon} alt='react icon'/>
