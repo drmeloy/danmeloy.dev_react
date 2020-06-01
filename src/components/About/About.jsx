@@ -15,13 +15,11 @@ import github_icon from '../../../public/assets/github.png';
 import heroku_icon from '../../../public/assets/heroku.png';
 import netlify_icon from '../../../public/assets/netlify.png';
 import jest_icon from '../../../public/assets/jest.png';
-import shell_icon from '../../../public/assets/shell.png';
-import vscode_icon from '../../../public/assets/vscode.png';
-import intellij_icon from '../../../public/assets/intellij.png';
 import scala_icon from '../../../public/assets/scala.png';
 import graphql_icon from '../../../public/assets/graphql.png';
 import typescript_icon from '../../../public/assets/typescript.png';
 import sass_icon from '../../../public/assets/sass.png';
+import deno_icon from '../../../public/assets/deno.png';
 import resume from '../../../public/assets/Dan Meloy Software Engineer Resume.pdf';
 
 export default function About(){
@@ -88,32 +86,24 @@ export default function About(){
               <br/>Jest
             </p>
             <p>
-              <img src={shell_icon} alt='shell icon'/>
-              <br/>Shell
-            </p>
-            <p>
-              <img src={vscode_icon} alt='vscode icon'/>
-              <br/>VS Code
-            </p>
-            <p>
-              <img src={intellij_icon} alt='intellij icon'/>
-              <br/>IntelliJ
+              <img src={scala_icon} alt='scala icon'/>
+              <br/>Scala
             </p>
           </div>
           <br/>
           <span>Technologies I am currently learning:</span>
           <div className={styles.Icons}>
             <p>
-              <img src={scala_icon} alt='scala icon'/>
-              <br/>Scala
+              <img src={typescript_icon} alt='typescript icon'/>
+              <br/>Typescript
+            </p>
+            <p>
+              <img src={deno_icon} alt='deno icon'/>
+              <br/>Deno
             </p>
             <p>
               <img src={graphql_icon} alt='graphql icon'/>
               <br/>GraphQL
-            </p>
-            <p>
-              <img src={typescript_icon} alt='typescript icon'/>
-              <br/>Typescript
             </p>
             <p>
               <img src={sass_icon} alt='sass icon'/>
