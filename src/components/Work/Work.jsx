@@ -26,7 +26,7 @@ export default function Work2(){
   return (
     <Element id='Work' name='Work'>
       <section className={styles.Work}>
-        <p>Selected projects:</p>
+        <p>Selected projects <i>(Note: older projects may no longer be hosted)</i>:</p>
         <div className={styles.Buttons}>
           <span onMouseOver={() => setProject('kit')} onClick={() => setProject('kit')} className={project === 'kit' ? styles.ActiveButton : styles.Button}>KiT: Keeping In Touch</span>
           <span onMouseOver={() => setProject('know')} onClick={() => setProject('know')} className={project === 'know' ? styles.ActiveButton : styles.Button}>KNOWOncology</span>

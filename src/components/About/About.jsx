@@ -20,7 +20,12 @@ import graphql_icon from '../../../public/assets/graphql.png';
 import typescript_icon from '../../../public/assets/typescript.png';
 import sass_icon from '../../../public/assets/sass.png';
 import deno_icon from '../../../public/assets/deno.png';
-import resume from '../../../public/assets/Dan Meloy Software Engineer Resume.pdf';
+import cypress_icon from '../../../public/assets/cypress.png';
+import python_icon from '../../../public/assets/python.png';
+import next_icon from '../../../public/assets/next.png';
+import react_query_icon from '../../../public/assets/react_query.png';
+import go_icon from '../../../public/assets/Go-Logo.svg';
+import resume from '../../../public/assets/Dan_Meloy_resume.pdf';
 
 export default function About(){
   return (
@@ -42,16 +47,8 @@ export default function About(){
               <br/>Javascript
             </p>
             <p>
-              <img src={html_icon} alt='html icon'/>
-              <br/>HTML
-            </p>
-            <p>
-              <img src={css_icon} alt='css icon'/>
-              <br/>CSS
-            </p>
-            <p>
-              <img src={node_icon} alt='node icon'/>
-              <br/>Node.js
+              <img src={typescript_icon} alt='typescript icon'/>
+              <br/>Typescript
             </p>
             <p>
               <img src={react_icon} alt='react icon'/>
@@ -60,6 +57,26 @@ export default function About(){
             <p>
               <img src={redux_icon} alt='redux icon'/>
               <br/>Redux
+            </p>
+            <p>
+              <img src={next_icon} alt='next icon'/>
+              <br/>Next.js
+            </p>
+            <p>
+              <img src={react_query_icon} alt='react query icon'/>
+              <br/>React Query
+            </p>
+            <p>
+              <img src={node_icon} alt='node icon'/>
+              <br/>Node.js
+            </p>
+            <p>
+              <img src={jest_icon} alt='jest icon'/>
+              <br/>Jest
+            </p>
+            <p>
+              <img src={cypress_icon} alt='cypress icon'/>
+              <br/>Cypress
             </p>
             <p>
               <img src={mongodb_icon} alt='mongodb icon'/>
@@ -81,21 +98,30 @@ export default function About(){
               <img src={netlify_icon} alt='netlify icon'/>
               <br/>Netlify
             </p>
+
             <p>
-              <img src={jest_icon} alt='jest icon'/>
-              <br/>Jest
+              <img src={html_icon} alt='html icon'/>
+              <br/>HTML
             </p>
             <p>
-              <img src={scala_icon} alt='scala icon'/>
-              <br/>Scala
+              <img src={css_icon} alt='css icon'/>
+              <br/>CSS
             </p>
           </div>
           <br/>
           <span>Technologies I am currently learning:</span>
           <div className={styles.Icons}>
             <p>
-              <img src={typescript_icon} alt='typescript icon'/>
-              <br/>Typescript
+              <img src={go_icon} alt='go icon'/>
+              <br/>Go
+            </p>
+            <p>
+              <img src={python_icon} alt='python icon'/>
+              <br/>Python
+            </p>
+            <p>
+              <img src={scala_icon} alt='scala icon'/>
+              <br/>Scala
             </p>
             <p>
               <img src={deno_icon} alt='deno icon'/>
